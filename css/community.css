@@ -1,0 +1,96 @@
+@font-face {
+font-family: DIN;
+src: url(font/DIN.ttf);
+}
+
+@font-face {
+font-family: BLANCH_CONDENSED;
+src: url(font/BLANCH_CONDENSED.otf);
+}
+
+.communityPage {
+	background-image: url('../media/redbg.jpg');
+    height: auto; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.communityContainer {
+	margin: 0px 20px;
+}
+
+.communityBox {
+	border: dashed black 2px;
+	background: #FAEEDE;
+	margin: 10px 10px;
+	padding: 0 15px;
+	opacity: 0.85;
+}
+
+.sponsorContainer {
+	margin: 0px 20px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.sponsorBox {
+	border: dashed black 2px;
+	background: #FAEEDE;
+	margin: 10px 10px;
+	padding: 0 15px;
+	opacity: 0.85;
+	flex: 33.3%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.communityPic {
+	max-height: 150px;
+	margin-bottom: 20px;
+}
+
+.sponsorImg {
+	background-color: black;
+    max-width: 300px;
+  	max-height: 150px;
+  	width: auto;
+  	height: auto;
+}
+                
+.communityTitle {
+	font-family: BLANCH_CONDENSED !important;
+	font-size: 200%;
+	color: black;
+}
+
+.sponsorTitle {
+	font-family: BLANCH_CONDENSED !important;
+	font-size: 600%;
+	color: #fff8dc;
+}
+
+.communityText {
+	font-family: DIN !important;
+	color: black;
+	line-height: 100%;
+}
+
+@media (max-width: 350px){
+	.sponsorImg{
+		max-width: 230px;
+	}
+}
+
+@media (max-width: 700px){
+	.sponsorBox{
+		flex: 100%;
+	}
+}

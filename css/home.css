@@ -1,0 +1,158 @@
+.homeImage {
+    background: url("../media/splash.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 95vh;
+    z-index: -100;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homelogo {
+  /*border: solid yellow 1px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: auto;
+  height: auto;
+}
+.gisaulogo {
+  width: 30%;
+  height: 100%;
+}
+
+.homeButton {
+  width: 80%;
+  font-size: 1400%;
+  font-family: BLANCH_CONDENSED;
+  color: white;
+  text-shadow: 10px 10px maroon;
+  letter-spacing: 5px;
+  background: transparent;
+  justify-content: center;
+  border: none;
+  outline: none;
+  transition: 1s;
+  left: 50%;
+}
+
+.homeBanner:hover {
+  transform: scale(1.05);
+}
+
+.hometext {
+  /*border: solid yellow 1px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gisautext {
+  width: 40%;
+  height: 100%;
+}
+
+
+/*
+.container{
+  border: solid yellow 1px;
+  margin-top: -100px;
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top, .bottom {
+  width: 1200px;
+  height: 500px;
+}
+
+
+.cf {
+  position:relative;
+  height:500px;
+  width:1200px;
+  margin:0 auto;
+}
+
+.cf img {
+  margin-top: 10px;
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.bottom {
+  opacity: 0;
+}
+
+.top, .bottom{
+  transition: opacity 0.5s linear;
+}
+
+.cf:hover .top {
+  opacity:0;
+}
+
+.cf:hover .bottom {
+  opacity:1;
+}
+*/
+
+@media (max-width: 450px){
+  .homeBanner{
+    font-size: 10px;
+  }
+  .homeButton{
+    left: 50%;
+  }
+  #homeImage.homeImage {
+    height: 100vh;
+  }
+} 
+@media (max-width: 650px){
+  .hometext{
+    width: 100vw;
+  }
+  .homeBanner {
+    width: 100vw;
+  }
+  .homeButton{
+    width: 200px;
+    font-size: 950%;
+  }
+  .gisautext{
+    width: 10%;
+  }
+}
+
+@media (max-width: 735px){
+  .homeImage{
+    height: 80%;
+  }
+  .homeButton {
+    width: 15%;
+  }
+}
+@media (max-width: 1130px){
+  .gisaulogo{
+    width: 30%;
+    height: 100%;
+  }
+  .homeImage{
+    height: 90vh;
+  }
+  .gisautext{
+    width: 60%;
+  }
+}
