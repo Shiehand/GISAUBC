@@ -20,14 +20,10 @@ src: url(font/BLANCH_CONDENSED.otf);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: 
-        linear-gradient(
-            rgba(320, 320, 320, 0.9), 
+    background: linear-gradient(
+            rgba(320, 320, 320, 0.9),
             rgba(320, 320, 320, 0.9)
-        ),
-        url("../media/teampic2.png");
-    background-repeat: repeat;
-    background-position: center;
+    ), url("../media/teampic2.png") repeat center;
 }
 .whoTitlemobile {
     width: 90%;
@@ -43,7 +39,7 @@ src: url(font/BLANCH_CONDENSED.otf);
     height: auto;
     text-align: center;
     flex-grow: 2;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .gallery {
@@ -284,51 +280,60 @@ src: url(font/BLANCH_CONDENSED.otf);
 
 }
 
-@media (max-width: 405px){
-    .whoText{
+@media (max-width: 405px) {
+    .whoText {
         width: 100%;
         margin-left: -0px;
         margin-top: -0px;
         font-size: 12px;
     }
+
     .whoright, img.teampic {
         height: 200px;
         width: 100%;
         margin-top: -80px;
         margin-left: -20px;
     }
-    .whoarewetitle{
+
+    .whoarewetitle {
         height: 150px;
         width: 320px;
     }
+
     .temp, .temp2 {
         height: 700px;
-}
+    }
 
-@media (max-width: 320px){
-    .gallery {
-        display: none;
-    }
-    .whoText{
-        width: 400px;
-        margin-left: -90px;
-        margin-top: 75px;
-        font-size: 12px;
-    }
-    .whoright, img.teampic {
-        height: 200px;
-        width: 400px;
-        margin-top: -60px;
-        margin-left: -60px;
-    }
-    .whoarewetitle{
-        height: 100px;
-        width: 280px;
-    }
-    .temp {
-        height: 400px;
-    }
-    .temp2, img.teampic {
-        display: none;
+    @media (max-width: 320px) {
+        .gallery {
+            display: none;
+        }
+
+        .whoText {
+            width: 400px;
+            margin-left: -90px;
+            margin-top: 75px;
+            font-size: 12px;
+        }
+
+        .whoright, img.teampic {
+            height: 200px;
+            width: 400px;
+            margin-top: -60px;
+            margin-left: -60px;
+        }
+
+        .whoarewetitle {
+            height: 100px;
+            width: 280px;
+        }
+
+        .temp {
+            height: 400px;
+        }
+
+        .temp2, img.teampic {
+            display: none;
+        }
     }
 }
