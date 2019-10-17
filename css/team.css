@@ -20,6 +20,8 @@ src: url(font/BLANCH_CONDENSED.otf);
     background: url("../media/redbg.jpg");;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
+
 }
 
 .pageTitle {
@@ -38,12 +40,8 @@ src: url(font/BLANCH_CONDENSED.otf);
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 0px 20px;
-	padding: 10px 10px;
-	background: rgba(255,248,220,0.5);
-    max-width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 60px 5px 30px;
+    background: rgba(255,248,220,0.5);
     content: "";
     clear: both;
     border-radius: 25px;
@@ -55,16 +53,15 @@ src: url(font/BLANCH_CONDENSED.otf);
 	align-items: center;
 	justify-content: center;
 	float: left;
-    padding: 5px;
     width: 25%;
     height: auto;
-    padding-right: 5px;
-    padding-left: 5px;
 }
 
 .teamTitle{
-	padding: 20px 10px;
-	display: block;
+    position: relative;
+    top: 15px;
+	/*padding: 20px 10px;
+	display: block;*/
 	text-align: center;
 	justify-content: center;
 	width: 219.2px;
@@ -90,9 +87,19 @@ src: url(font/BLANCH_CONDENSED.otf);
 
 .teamText {
 	position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
+    transform: translate(-50%, -50%);
 	font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.teamYear {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
 
 .teamPic {
@@ -139,11 +146,13 @@ src: url(font/BLANCH_CONDENSED.otf);
 
 
 @media (max-width: 550px){
-    .teamPic, .portrait, .portraitgif, .overlay {
+    /*.teamPic, .portrait, .portraitgif, .overlay {
 	    width: 200px;
 	    height: auto;
+    }*/
+    .container {
+        margin: 20px;
     }
-
     .portraitgif1 {
         width: 166.39px;
         height: 221.85px;
@@ -155,7 +164,7 @@ src: url(font/BLANCH_CONDENSED.otf);
     .teamTitle {
     	font-size: 23px;
     	height: 75px;
-    	top: 0px;
+    	top: 0;
     }
 
     .teamTitle1 {
@@ -164,9 +173,9 @@ src: url(font/BLANCH_CONDENSED.otf);
         top: 28px;
     }
 
-    .teamText {
+    /*.teamText {
     	font-size: 12px;
-    }
+    }*/
 
     .teamPageTitle {
         width: 300px;
