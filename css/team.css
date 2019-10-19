@@ -86,6 +86,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 .teamText {
+    font-weight: bold;
 	position: absolute;
     top: 30%;
     left: 50%;
