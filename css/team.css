@@ -9,21 +9,6 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 @font-face {
-    font-family: MarketDeco;
-    src: url(font/Market_Deco.ttf)
-}
-
-@font-face {
-    font-family: WhiteAngelica;
-    src: url(font/WhiteAngelica.ttf)
-}
-
-@font-face {
-    font-family: DreamOrphans;
-    src: url(font/dreamorphans_it.ttf);
-}
-
-@font-face {
     font-family: GT;
     src: url(font/GTWalsheimRegular.ttf);
 }
