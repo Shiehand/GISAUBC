@@ -19,6 +19,7 @@ src: url(font/BLANCH_CONDENSED.otf);
     
     padding-top: 20px;
     margin-top: 25px;
+	width: 100%;
 }
 
 .communityContainer {
@@ -34,10 +35,10 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 .sponsorContainer {
-	margin: 0px 20px;
 	display: flex;
 	flex-wrap: wrap;
-
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 .sponsorBox {
@@ -46,10 +47,9 @@ src: url(font/BLANCH_CONDENSED.otf);
 	margin: 10px 10px;
 	padding: 0 15px;
 	opacity: 0.85;
-	flex: 33.3%;
+	flex: 0 1 48%;
 	float: left;
-	display: flex;
-	flex-direction: column;
+	width: 400px;
 }
 
 .communityPic {
@@ -81,6 +81,11 @@ src: url(font/BLANCH_CONDENSED.otf);
 	font-family: DIN !important;
 	color: black;
 	line-height: 100%;
+}
+
+.body {
+	width: 100%;
+	max-width: 1024px;
 }
 
 @media (max-width: 350px){
