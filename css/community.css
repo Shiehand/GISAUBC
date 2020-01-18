@@ -23,7 +23,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 .communityContainer {
-	margin: 0px 20px;
+	margin: 0 20px;
 }
 
 .communityBox {
@@ -66,27 +66,23 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
                 
 .communityTitle {
-	font-family: BLANCH_CONDENSED !important;
+	font-family: BLANCH_CONDENSED, monospace !important;
 	font-size: 200%;
 	color: black;
 }
 
 .sponsorTitle {
-	font-family: BLANCH_CONDENSED !important;
+	font-family: BLANCH_CONDENSED, monospace !important;
 	font-size: 600%;
 	color: #fff8dc;
 }
 
 .communityText {
-	font-family: DIN !important;
+	font-family: DIN, monospace !important;
 	color: black;
 	line-height: 100%;
 }
 
-.body {
-	width: 100%;
-	max-width: 1024px;
-}
 
 @media (max-width: 350px){
 	.sponsorImg{

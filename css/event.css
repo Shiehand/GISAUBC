@@ -20,18 +20,18 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 h1 {
-	font-family: BLANCH_CONDENSED !important;
+	font-family: BLANCH_CONDENSED, monospace !important;
 	font-size: 50px !important;
 	color: #2B425F !important;
 }
 
 h5 {
-	font-family: Courier New;
+	font-family: Courier New, sans-serif;
 	color: white;
 }
 h6 {
 	color: #2B425F;
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	font-size: 100%;
 }
 
@@ -72,7 +72,7 @@ h6 {
 	align-content: center;
 	align-items: stretch;
 	justify-content: center;
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 
 .eventBox{
@@ -159,7 +159,7 @@ a:hover{
 	.eventBody{
 		flex-direction: column;
 		align-content: center;
-		padding: 0px 20%;
+		padding: 0 20%;
 	}
 	.eventBox{
 		margin-top: 20px;
@@ -195,7 +195,7 @@ a:hover{
 		width: 130%;
 	}
 	.eventBody{
-		padding: 0 0%;
+		padding: 0 0;
 	}
 	.eventBox{
 		margin-left: -.5%;

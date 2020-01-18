@@ -33,7 +33,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: BLANCH_CONDENSED;
+	font-family: BLANCH_CONDENSED, monospace;
 	font-size: 63px;
     max-width: 1240px;
     margin-left: auto;
@@ -69,11 +69,11 @@ src: url(font/BLANCH_CONDENSED.otf);
 	display: block;*/
 	text-align: center;
 	justify-content: center;
-	width: 219.2px;
-	height: 66.8px;
+	width: 219px;
+	height: 67px;
 	/*background: rgba(128,0,0,0.2);*/
 	color: black;
-	font-family: BLANCH_CONDENSED;
+	font-family: BLANCH_CONDENSED, monospace;
 	font-size: 25px;
 }
 
@@ -82,11 +82,11 @@ src: url(font/BLANCH_CONDENSED.otf);
 	display: block;
 	text-align: center;
 	justify-content: center;
-	width: 219.2px;
-	height: 66.8px;
+	width: 219px;
+	height: 67px;
 	/*background: maroon;*/
 	color: black;
-	font-family: BLANCH_CONDENSED;
+	font-family: BLANCH_CONDENSED, monospace;
 	font-size: 25px;
 }
 
@@ -96,7 +96,17 @@ src: url(font/BLANCH_CONDENSED.otf);
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-	font-family: GT;
+	font-family: GT, sans-serif;
+    font-size: 25px;
+}
+
+.teamText_older {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: GT, sans-serif;
     font-size: 25px;
 }
 
@@ -160,8 +170,8 @@ src: url(font/BLANCH_CONDENSED.otf);
         margin: 20px;
     }
     .portraitgif1 {
-        width: 166.39px;
-        height: 221.85px;
+        width: 166px;
+        height: 222px;
         bottom: 56px;
         right: 21px;
         position: relative;
