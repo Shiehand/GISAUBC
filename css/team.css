@@ -22,11 +22,17 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 .teamPage {
-    background: url("../media/redbg.jpg");;
+    background: url("../media/background/redbg.jpg");
     justify-content: center;
     align-items: center;
     padding-bottom: 75px;
+}
 
+.teamPage2017 {
+    background: url("../media/background/goldenbg.jpg");
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
 }
 
 .pageTitle {

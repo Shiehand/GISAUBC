@@ -7,7 +7,7 @@ html {
 }
 
 #body {
-	background: url("../media/redbg.jpg");
+	background: url("../media/background/redbg.jpg");
     background-size: contain;
     height: auto;
     padding: 20px 20px;

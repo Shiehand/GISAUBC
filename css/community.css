@@ -9,7 +9,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 .communityPage {
-	background-image: url('../media/redbg.jpg');
+	background-image: url('../media/background/redbg.jpg');
     height: auto; 
     background-attachment: fixed;
     background-position: center;
