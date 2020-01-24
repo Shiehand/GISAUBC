@@ -28,13 +28,6 @@ src: url(font/BLANCH_CONDENSED.otf);
     padding-bottom: 75px;
 }
 
-.teamPage2017 {
-    background: url("../media/background/goldenbg.jpg");
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 75px;
-}
-
 .pageTitle {
 	display: flex;
 	align-items: center;
