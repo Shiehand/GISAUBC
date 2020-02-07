@@ -54,7 +54,7 @@ FCEEE6 - Pink
     align-items: center;
     background: white;
     width: 80%;
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 
 .calendar {
@@ -108,44 +108,51 @@ FCEEE6 - Pink
 }
 
 .rantanganIcon{
-    margin: 10px;
     border-radius: 100%;
     border: solid 4px white;
     transition: 0.3s ease;
     cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .rantanganText {
     color: white;
     font-size: 20px;
-    position: inherit;
+    padding: 20px;
 }
 
 .rantanganText h2 {
     color: white !important;
     letter-spacing: 3px;
     padding: 5px;
-    font-family: "Times New Roman", Times, serif;
-    position: inherit;
+    font-family: Georgia, serif;
+    font-size: 35px;
 }
 
 .rantanganContainer {
-    width: inherit;
-    height: auto;
+    position: relative;
     padding: 10px;
 }
 
 .rantanganOverlay {
-    border: white 4px solid;
-    border-radius: 100%;
-    background-color: #D05454;
-    opacity: 0;
-    position: absolute;
-    place-self: center;
+    display: none;
+    text-align: center;
 }
 
 .rantanganContainer:hover .rantanganOverlay {
-    opacity: 1;
+    position: absolute;
+    background-color: rgba(217,69,69,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10px;
+    left: 10px;
+    border-radius: 100%;
+    border: solid 4px white;
+    width: 94%;
+    height: 94%;
 }
 
 .title h1 {
