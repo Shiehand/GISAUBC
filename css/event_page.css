@@ -1,0 +1,157 @@
+/*
+GISAU Color Theme:
+2B425F - Blue
+5C3032 - Maroon
+A62F2F - Red
+C98524 - Ocare
+CC9393 - Peach
+FCEEE6 - Pink
+*/
+
+@font-face {
+    font-family: DIN;
+    src: url(font/DIN.ttf);
+}
+
+@font-face {
+    font-family: BLANCH_CONDENSED;
+    src: url(font/BLANCH_CONDENSED.otf);
+}
+
+.upcoming_box {
+    display: flex;
+    margin: 10px 0 20px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcoming_title {
+    color: black;
+    font-size: 150%;
+    margin-top: 37px;
+}
+
+.poster {
+    max-height: 375px;
+    max-width: 500px;
+    background: black;
+}
+
+.upcoming_poster {
+    display: block;
+    max-height: 375px;
+    width: auto;
+    height: auto;
+}
+
+.calendar_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background: white;
+    width: 80%;
+    padding: 20px 0px;
+}
+
+.calendar {
+    background-color: white;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.date {
+    font-size: 190%;
+    color: black;
+}
+
+.description {
+    padding: 20px 20px;
+    text-align: left;
+    display: none;
+}
+
+.event_info {
+    height: 80px;
+    width: 100%;
+    color: grey;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.name {
+    color: black;
+    font-size: 130%;
+}
+
+.eventpage {
+    background: url("../media/background/redbg.jpg");
+    align-items: center;
+    justify-content: center;
+}
+
+.rantanganBox{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.rantanganIcon{
+    margin: 10px;
+    border-radius: 100%;
+    border: solid 4px white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.rantanganText {
+    color: white;
+    font-size: 20px;
+    position: inherit;
+}
+
+.rantanganText h2 {
+    color: white !important;
+    letter-spacing: 3px;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    position: inherit;
+}
+
+.rantanganContainer {
+    width: inherit;
+    height: auto;
+    padding: 10px;
+}
+
+.rantanganOverlay {
+    border: white 4px solid;
+    border-radius: 100%;
+    background-color: #D05454;
+    opacity: 0;
+    position: absolute;
+    place-self: center;
+}
+
+.rantanganContainer:hover .rantanganOverlay {
+    opacity: 1;
+}
+
+.title h1 {
+    color: #D3D3D3 !important;
+    letter-spacing: 3px;
+    padding: 5px;
+    position:relative;
+    top: 19px;
+}
