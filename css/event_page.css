@@ -179,7 +179,7 @@ FCEEE6 - Pink
 }
 
 .car-info {
-    background-color: darkgrey;
+    background-image: linear-gradient(to bottom, #f7c567 5%, #d73d3d 66%);
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -188,9 +188,14 @@ FCEEE6 - Pink
 .info-title {
     font-weight: bold;
     font-family: GT, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     height: 10%;
-    background-color: lightpink;
+    color: black;
+    /*background-color: lightpink;*/
+}
+
+.info-title p {
+    padding: 4%;
 }
 
 .info-picture {
@@ -208,7 +213,8 @@ FCEEE6 - Pink
 
 .info-description {
     height: 30%;
-    background-color: navajowhite;
+    color: white;
+    /*background-color: navajowhite;*/
 }
 
 #myCarousel {
