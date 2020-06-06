@@ -10,7 +10,7 @@ h1 {
 }
 
 .covidPageTitle {
-    padding-top: auto;
+    margin-top: 35px;
     width: 100%;
     height: auto;
     align-items: center;
@@ -22,11 +22,14 @@ h1 {
     color: #FAEEDE;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 80%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: GT, sans-serif;
+    font-size: 18px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -36,8 +39,40 @@ h1 {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
+    width: 80%;
+    margin: auto;
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #FAEEDE;
+    text-align: justify;
+}
+
+.faq_box {
+    background-color: #FAEEDE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul.list_indent {
+    list-style: circle;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+ul.list_indent1 {
+    list-style: square;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+ol.list_indent {
+    list-style: decimal;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+li.list_indent {
+    list-style-position: outside;
+    text-align: justify;
 }
