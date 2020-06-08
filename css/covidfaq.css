@@ -9,12 +9,46 @@ h1 {
     color: black !important;
 }
 
+.divider {
+    font-family: BLANCH_CONDENSED, monospace;
+    font-size: 32px;
+}
+
 .covidPageTitle {
     margin-top: 35px;
     width: 100%;
     height: auto;
-    align-items: center;
-    justify-content: center;
+}
+
+.contactmore {
+    background: url("../media/background/redbg.jpg");
+    padding-left: 50px;
+    font-size: 32px;
+    font-family: BLANCH_CONDENSED, monospace;
+    text-align: left;
+    color: #FAEEDE;
+}
+
+.contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.contactBox {
+    text-align: center;
+    margin: 10px 10px;
+    padding: 0 15px;
+    opacity: 0.85;
+    flex: 0 1 300px;
+    float: left;
+
+}
+
+.permika-logo {
+    width: 75px;
+    height: 100px;
 }
 
 .collapsible {
