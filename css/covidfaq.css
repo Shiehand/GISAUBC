@@ -41,14 +41,23 @@ h1 {
     margin: 10px 10px;
     padding: 0 15px;
     opacity: 0.85;
-    flex: 0 1 300px;
+    flex: 0 1 325px;
     float: left;
 
 }
 
-.permika-logo {
-    width: 75px;
+.logo {
+    width: auto;
     height: 100px;
+}
+
+.links {
+    color: white;
+    text-decoration: underline;
+}
+
+.links:hover {
+    color: black;
 }
 
 .collapsible {
