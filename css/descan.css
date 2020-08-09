@@ -33,11 +33,15 @@
     padding: 20px;
 }
 
+.collab_img {
+    padding: 10px;
+    width: 25%;
+}
+
 .sponsor_img {
     padding: 10px;
     width: 20%;
 }
-
 
 @media (max-width: 1024px) {
     .title_descan {
@@ -51,6 +55,7 @@
     }
     .sponsor_img {
         padding: 5px;
+        width: 25%;
     }
     .sponsor_container {
         padding: 10px;
