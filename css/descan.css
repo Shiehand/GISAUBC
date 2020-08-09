@@ -1,0 +1,15 @@
+.body {
+    text-align: left;
+}
+
+ul.list_indent {
+    list-style: circle;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+li {
+    list-style-position: outside;
+    text-align: justify;
+}
+
