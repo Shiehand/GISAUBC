@@ -4,20 +4,28 @@
 }
 
 .title_descan {
-    background-image: url("../media/descan1.png");
+    background-image: url("../media/descan2.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    height: 1000px;
+    height: 597px;
     position: relative;
+}
+
+.contactmore {
+    background: url("../media/background/redbg.jpg");
+    font-size: 32px;
+    font-family: BLANCH_CONDENSED, monospace;
+    text-align: left;
+    color: #FAEEDE;
 }
 
 .timer {
     font-family: BLANCH_CONDENSED, monospace;
-    font-size: 15vw;
+    font-size: 10vw;
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -30,7 +38,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 0 20px 20px;
 }
 
 .collab_img {
@@ -79,3 +87,46 @@
         height: 240px;
     }
 }
+
+.body {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: #FAEEDE;
+    font-family: GT, sans-serif;
+    font-size: 20px;
+}
+
+.time {
+    font-weight: bold;
+    color: darkred;
+}
+
+ul.list_indent {
+    list-style: disc;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+ul.rundown-list {
+    list-style: none;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+li {
+    list-style-position: outside;
+    text-align: justify;
+}
+
+.opening {
+    font-family: "Verdana", sans-serif;
+    font-size: 22px;
+}
+
+.collab_img {
+    height: 300px;
+    width: 250px;
+}
+
