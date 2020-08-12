@@ -15,6 +15,14 @@
     position: relative;
 }
 
+.title {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 10%;
+    font-size: 8vw;
+    color: white;
+}
+
 .contactmore {
     background: url("../media/background/redbg.jpg");
     font-size: 32px;
@@ -28,7 +36,7 @@
     font-size: 10vw;
     padding: 10px;
     position: absolute;
-    top: 50%;
+    top: 75%;
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
 }
@@ -38,12 +46,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0 20px 20px;
+    padding: 0 50px 50px;
 }
 
 .collab_img {
     padding: 10px;
     width: 25%;
+    flex-shrink: 3;
 }
 
 .sponsor_img {
@@ -51,9 +60,15 @@
     width: 20%;
 }
 
+.rsvp {
+    background: darkred;
+    color: white;
+    margin-top: 20px;
+}
+
 @media (max-width: 1024px) {
     .title_descan {
-        height: 675px;
+        height: 579px;
     }
 }
 

@@ -133,3 +133,5 @@ src: url(font/BLANCH_CONDENSED.otf);
   display: none;
   }
 }
+
+.navbar { margin-bottom:0;}
