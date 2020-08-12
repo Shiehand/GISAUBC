@@ -13,14 +13,31 @@
     text-align: center;
     height: 597px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .title_descan {
+        height: 250px;
+    }
+
+    .body {
+        font-size: 14px;
+    }
+}
+
+.title_container {
+    margin: auto;
 }
 
 .title {
-    font-family: Helvetica, sans-serif;
     position: relative;
-    top: 10%;
-    font-size: 8vw;
-    color: white;
+    font-size: 10vw;
+    color: black;
+    top: 25%;
+    font-family: BLANCH_CONDENSED, monospace;
 }
 
 .contactmore {
@@ -35,10 +52,14 @@
     font-family: BLANCH_CONDENSED, monospace;
     font-size: 10vw;
     padding: 10px;
-    position: absolute;
-    top: 75%;
-    transform: translateY(-50%) translateX(-50%);
-    left: 50%;
+}
+
+.collab_container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .sponsor_container {
@@ -46,13 +67,16 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0 50px 50px;
+    padding: 0 20px 20px;
 }
 
 .collab_img {
-    padding: 10px;
-    width: 25%;
-    flex-shrink: 3;
+    flex-shrink: 1;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sponsor_img {
@@ -66,42 +90,6 @@
     margin-top: 20px;
 }
 
-@media (max-width: 1024px) {
-    .title_descan {
-        height: 579px;
-    }
-}
-
-@media (max-width: 700px) {
-    .title_descan {
-        height: 500px;
-    }
-    .sponsor_img {
-        padding: 5px;
-        width: 25%;
-    }
-    .sponsor_container {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 500px) {
-    .title_descan {
-        height: 295px;
-    }
-}
-
-@media (max-width: 420px) {
-    .title_descan {
-        height: 265px;
-    }
-}
-
-@media (max-width: 380px) {
-    .title_descan {
-        height: 240px;
-    }
-}
 
 .body {
     padding-left: 10px;
@@ -137,7 +125,6 @@ li {
 
 .opening {
     font-family: "Verdana", sans-serif;
-    font-size: 22px;
 }
 
 .collab_img {
