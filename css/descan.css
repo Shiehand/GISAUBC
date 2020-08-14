@@ -132,3 +132,32 @@ li {
     width: 250px;
 }
 
+.collapsible {
+    background-color: #af3e40;
+    color: #FAEEDE;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: GT, sans-serif;
+    font-size: 18px;
+}
+
+.active, .collapsible:hover {
+    background-color: #A62F2F;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    width: 80%;
+    margin-left: 20px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #FAEEDE;
+    text-align: justify;
+}
