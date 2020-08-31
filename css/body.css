@@ -1,6 +1,4 @@
 html {
-	width: 100%;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -29,13 +27,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     */
-    max-width: 100%;
     overflow-x: hidden;
 }
 
 #page_split {
-	width: 100%;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
     align-items: center;
@@ -43,14 +38,12 @@ html {
 }
 
 #page2 {
-	width: 100%;
 	height: 90vh;
     align-items: center;
     justify-content: center;
 }
 
 #page3 {
-	width: 100%;
 	height: auto;
 	overflow: hidden;
     display: flex;
@@ -63,7 +56,6 @@ html {
 #sponsor {
 	background: black;
 	opacity: 0.85;
-	width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: row;
