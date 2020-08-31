@@ -82,6 +82,14 @@ src: url(font/BLANCH_CONDENSED.otf);
 	line-height: 100%;
 }
 
+.call-sponsors {
+	border: dashed black 2px;
+	background: #FAEEDE;
+	padding: 0 15px;
+    flex: 1 1 100%;
+	opacity: 0.85;
+	margin: 0 30vw 0 30vw;
+}
 
 @media (max-width: 350px){
 	.sponsorImg{
@@ -94,3 +102,4 @@ src: url(font/BLANCH_CONDENSED.otf);
 		flex: 100%;
 	}
 }
+
