@@ -51,6 +51,7 @@ h2 {
 .mentor-container-indiv {
     flex: 0 1 22.5%;
     margin: 20px 20px 20px 20px;
+    border-radius: 15px;
 }
 
 .mentor-pic-box {
