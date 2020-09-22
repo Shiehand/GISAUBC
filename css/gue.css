@@ -18,7 +18,7 @@ body {
 .desc-box {
     padding: 10px 20px 20px 20px;
     margin: 20px 5% 20px 5%;
-    background-color: #ac2925;
+    background-color: #d06032;
     border-radius: 25px;
 }
 
@@ -35,7 +35,6 @@ h2 {
 }
 
 .mentors {
-
     margin: 20px 5% 20px 5%;
 }
 
@@ -65,11 +64,11 @@ h2 {
 }
 
 .mentor-color-1 {
-    background-color: #2B425F;
+    background-color: #519eae;
 }
 
 .mentor-color-2 {
-    background-color: yellow;
+    background-color: #eec042;
 }
 
 @media (max-width: 700px) {
