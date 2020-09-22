@@ -73,7 +73,7 @@ h2 {
 
 @media (max-width: 700px) {
     .mentor-container-indiv {
-        width: 40%;
+        flex: 0 1 40%;
         margin: 10px 10px 10px 10px;
     }
 }
