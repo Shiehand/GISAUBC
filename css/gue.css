@@ -24,15 +24,20 @@ body {
 
 h1 {
     text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 80px;
 }
 
 h2 {
     text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 30px;
 }
 .description {
     padding: 10px 10px 10px 10px;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
 }
 
 .mentors {
@@ -68,6 +73,21 @@ h2 {
     padding: 15px 10px 0 10px;
 }
 
+.mentor-name {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.mentor-desc {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.mentor-heading {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
 .mentor-color-1 {
     background-color: #519eae;
 }
@@ -82,13 +102,13 @@ h2 {
 
 @media (max-width: 1919px) {
     .description {
-        font-size: 14px;
+        font-size: 15px;
     }
     h1 {
-        font-size: 24px;
+        font-size: 80px;
     }
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .mentor-container-indiv {
         flex: 1 1 40%;
