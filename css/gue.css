@@ -76,10 +76,21 @@ h2 {
 .mentor-name {
     font-family: Verdana, Geneva, sans-serif;
     font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mentor-prog {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .mentor-desc {
     font-family: Verdana, Geneva, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .mentor-heading {
