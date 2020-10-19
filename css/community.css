@@ -44,7 +44,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 	border: dashed black 2px;
 	background: #FAEEDE;
 	margin: 10px 10px;
-	padding: 0 15px;
+	padding: 0 5vw 20px 5vw;
 	opacity: 0.85;
 	flex: 0 1 48%;
 	float: left;
@@ -57,7 +57,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 }
 
 .sponsorImg {
-	background-color: black;
+	background-color: white;
     max-width: 300px;
   	max-height: 150px;
   	width: auto;
