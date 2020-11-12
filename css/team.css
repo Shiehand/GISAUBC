@@ -150,7 +150,7 @@ src: url(font/BLANCH_CONDENSED.otf);
 .teamPic_landscape {
     position: relative;
     float: left;
-    width: 245px;
+    width: 350px;
     border: solid black 2px;
 }
 
@@ -233,6 +233,12 @@ src: url(font/BLANCH_CONDENSED.otf);
     .teamPageTitle {
         width: 300px;
         height: auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    .teamPic_landscape {
+        width: 245px;
     }
 }
 
