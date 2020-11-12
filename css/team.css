@@ -51,6 +51,19 @@ src: url(font/BLANCH_CONDENSED.otf);
     border-radius: 25px;
 }
 
+.container_new{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    padding: 60px 5px 30px;
+    background: rgba(255,248,220,0.65);
+    content: "";
+    clear: both;
+    border-radius: 25px;
+    margin: 0px 60px;
+}
+
 .teamBox{
 	display: flex;
 	flex-direction: column;
@@ -58,6 +71,16 @@ src: url(font/BLANCH_CONDENSED.otf);
 	justify-content: center;
 	float: left;
     width: 25%;
+    height: auto;
+}
+
+.teamBox_landscape{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	float: left;
+    width: 33%;
     height: auto;
 }
 
@@ -114,13 +137,20 @@ src: url(font/BLANCH_CONDENSED.otf);
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .teamPic {
     position: relative;
     float: left;
     width: 180px;
+    border: solid black 2px;
+}
+
+.teamPic_landscape {
+    position: relative;
+    float: left;
+    width: 245px;
     border: solid black 2px;
 }
 
@@ -145,6 +175,14 @@ src: url(font/BLANCH_CONDENSED.otf);
     color: black;
     opacity: 0;
     background: rgba(255,255,255,0.4);
+}
+
+.teamPic_landscape:hover .overlay {
+    opacity: 1;
+}
+
+.teamPic_landscape:hover .portrait {
+    opacity: 0.4;
 }
 
 .teamPic:hover .overlay {
@@ -198,9 +236,25 @@ src: url(font/BLANCH_CONDENSED.otf);
     }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 985px){
     .teamBox {
         width: 33.3%;
+    }
+
+    .teamBox_landscape {
+        width: 50%;
+    }
+
+    .teamPic_landscape {
+        width: 200px;
+    }
+
+    .teamText {
+        font-size: 15px;
+    }
+
+    .teamYear {
+        font-size: 13px;
     }
 }
 
@@ -210,8 +264,12 @@ src: url(font/BLANCH_CONDENSED.otf);
     }
 }
 
-@media (max-width: 440px){
+@media (max-width: 600px){
     .teamBox {
         width: 100%;
     }
+
+    .teamBox_landscape {
+            width: 100%;
+        }
 }
