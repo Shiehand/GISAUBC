@@ -112,6 +112,10 @@ h2 {
     margin: 15% 20px 0 20px;
 }
 
+.scoreboard-container {
+    margin: 20px 5% 20px 5%;
+}
+
 @media (max-width: 800px) {
     .mentor-container-indiv {
         flex: 1 1 40%;
