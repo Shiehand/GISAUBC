@@ -155,8 +155,12 @@ h2 {
 	text-align: center;
 }
 
+.team_name {
+    font-size: 20px;
+}
+
 .bg-blue {
-	background-color: #063b65;
+	background-color: #519eae;
 }
 
 #first-step {
@@ -169,6 +173,10 @@ h2 {
 
 #third-step {
 	height: 35%;
+}
+
+.progress-bar {
+    background-color: #d06032;
 }
 
 @media (max-width: 800px) {
