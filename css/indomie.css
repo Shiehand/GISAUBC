@@ -8,8 +8,8 @@ img {
 }
 
 body {
-	background-image: url(../media/indomie_bg.jpeg);
-	color: white;
+	/* background-image: url(../media/indomie_bg.jpeg); */
+	color: black;
 	font-size: 12px;
 	font-family: "DIN";
 	font-weight: bold;
