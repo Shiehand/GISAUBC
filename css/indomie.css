@@ -1,0 +1,36 @@
+@font-face {
+	font-family: DIN;
+	src: url(font/DIN.ttf);
+}
+body {
+	background-image: url(../media/indomie_bg.jpeg);
+	color: white;
+	font-size: 2vh;
+	font-family: "DIN";
+	font-weight: bold;
+}
+b {
+	text-decoration: underline;
+}
+
+ol li {
+	list-style: decimal;
+	list-style-position: inside;
+	text-align: left;
+}
+
+a {
+	color: yellow;
+}
+
+.content {
+	margin: 5vh 10vw 5vh 10vw;
+}
+
+.content div {
+	margin: 5vh 0 5vh 0;
+}
+
+#nav-placeholder {
+	margin: 0;
+}
