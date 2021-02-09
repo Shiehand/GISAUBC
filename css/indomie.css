@@ -8,8 +8,8 @@ img {
 }
 
 body {
-	/* background-image: url(../media/indomie_bg.jpeg); */
-	color: black;
+	background-image: url(../media/indomie_bg.jpeg);
+	color: white;
 	font-size: 12px;
 	font-family: "Roboto";
 	font-weight: bold;
@@ -35,11 +35,11 @@ a {
 }
 
 .content {
-	/* margin: 5vh 10vw 5vh 10vw; */
+	margin: 5vh 10vw 5vh 10vw;
 }
 
 .content div {
-	/* margin: 5vh 0 5vh 0; */
+	margin: 5vh 0 5vh 0;
 }
 
 #nav-placeholder {
