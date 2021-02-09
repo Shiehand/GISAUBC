@@ -27,7 +27,6 @@ ol li {
 	list-style: decimal;
 	text-align: left;
 	overflow: visible;
-	white-space: nowrap;
 }
 
 a {
