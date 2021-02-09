@@ -11,7 +11,7 @@ body {
 	/* background-image: url(../media/indomie_bg.jpeg); */
 	color: black;
 	font-size: 12px;
-	font-family: "DIN";
+	font-family: "Times New Roman";
 	font-weight: bold;
 }
 
@@ -27,6 +27,7 @@ ol li {
 	list-style: decimal;
 	text-align: left;
 	overflow: visible;
+	white-space: nowrap;
 }
 
 a {
