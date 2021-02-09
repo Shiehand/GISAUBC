@@ -2,6 +2,11 @@
 	font-family: DIN;
 	src: url(font/DIN.ttf);
 }
+
+img {
+	max-width: 100%;
+}
+
 body {
 	background-image: url(../media/indomie_bg.jpeg);
 	color: white;
