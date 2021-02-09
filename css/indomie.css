@@ -25,7 +25,6 @@ b {
 
 ol li {
 	list-style: decimal;
-	list-style-position: inside;
 	text-align: left;
 	overflow: visible;
 }
