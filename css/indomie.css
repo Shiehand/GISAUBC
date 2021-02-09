@@ -10,13 +10,13 @@ img {
 body {
 	background-image: url(../media/indomie_bg.jpeg);
 	color: white;
-	font-size: 12px;
+	font-size: 2vh;
 	font-family: "Roboto";
 	font-weight: bold;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 3vh;
 }
 
 b {
