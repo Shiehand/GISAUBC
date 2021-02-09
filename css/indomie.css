@@ -9,6 +9,11 @@ body {
 	font-family: "DIN";
 	font-weight: bold;
 }
+
+h3 {
+	font-size: 3vh;
+}
+
 b {
 	text-decoration: underline;
 }
