@@ -35,11 +35,11 @@ a {
 }
 
 .content {
-	margin: 5vh 10vw 5vh 10vw;
+	/* margin: 5vh 10vw 5vh 10vw; */
 }
 
 .content div {
-	margin: 5vh 0 5vh 0;
+	/* margin: 5vh 0 5vh 0; */
 }
 
 #nav-placeholder {
