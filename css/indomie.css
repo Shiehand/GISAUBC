@@ -44,3 +44,23 @@ a {
 #nav-placeholder {
 	margin: 0;
 }
+
+.sponsorBox {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	display: flex;
+}
+
+.sponsorIcon {
+	border: solid 4px black;
+	width: 15%;
+	margin: 0.5%;
+	background-color: white;
+}
+
+@media (max-width: 450px) {
+	.sponsorIcon {
+		width: 40%;
+	}
+}
