@@ -48,13 +48,14 @@ a {
 .sponsorBox {
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	display: flex;
 }
 
 .sponsorIcon {
 	border: solid 4px black;
-	width: 15%;
+	max-width: 15vw;
+	max-height: 15vw;
 	flex: 0 1 15%;
 	margin: 0.5%;
 	background-color: white;
@@ -62,7 +63,8 @@ a {
 
 @media (max-width: 450px) {
 	.sponsorIcon {
-		width: 40%;
+		max-width: 30vw;
+		max-height: 30vw;
 		flex: 0 1 40%;
 	}
 }
