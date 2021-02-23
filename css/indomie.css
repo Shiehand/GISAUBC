@@ -55,6 +55,7 @@ a {
 .sponsorIcon {
 	border: solid 4px black;
 	width: 15%;
+	flex: 0 1 15%;
 	margin: 0.5%;
 	background-color: white;
 }
