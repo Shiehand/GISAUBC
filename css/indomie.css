@@ -63,5 +63,6 @@ a {
 @media (max-width: 450px) {
 	.sponsorIcon {
 		width: 40%;
+		flex: 0 1 40%;
 	}
 }
