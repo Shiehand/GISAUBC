@@ -1,341 +1,341 @@
 @font-face {
-font-family: DIN;
-src: url(font/DIN.ttf);
+	font-family: DIN;
+	src: url(font/DIN.ttf);
 }
 
 @font-face {
-font-family: BLANCH_CONDENSED;
-src: url(font/BLANCH_CONDENSED.otf);
+	font-family: BLANCH_CONDENSED;
+	src: url(font/BLANCH_CONDENSED.otf);
 }
-.aboutPage{
-    width: 100%;
-    height: 100%;
-    max-width: 1240px;
+.aboutPage {
+	width: 100%;
+	height: 100%;
+	max-width: 1240px;
 }
 
 .aboutmobile {
-    width: 100vw;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(
-            rgba(320, 320, 320, 0.9),
-            rgba(320, 320, 320, 0.9)
-    ), url("../media/teampic2.png") repeat center;
+	width: 100vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+			rgba(320, 320, 320, 0.9),
+			rgba(320, 320, 320, 0.9)
+		),
+		url('../media/teampic2.png') repeat center;
 }
 .whoTitlemobile {
-    width: 90%;
-    height: auto;
-    flex-grow: 1;
-    margin-top: 40px;
-    justify-content: center;
-    align-items: center;
-
+	width: 90%;
+	height: auto;
+	flex-grow: 1;
+	margin-top: 40px;
+	justify-content: center;
+	align-items: center;
 }
 .whoTextmobile {
-    width: 75%;
-    height: auto;
-    text-align: center;
-    flex-grow: 2;
-    font-weight: bold;
+	width: 75%;
+	height: auto;
+	text-align: center;
+	flex-grow: 2;
+	font-weight: bold;
 }
 
 .gallery {
-    background: #EEE;
+	background: #eee;
 }
 .gallery-cell {
-    width: 100%;
-    height: 200px;
-    margin-right: 10px;
-    background: #8C8;
-    counter-increment: gallery-cell;
+	width: 100%;
+	height: 200px;
+	margin-right: 10px;
+	background: #8c8;
+	counter-increment: gallery-cell;
 }
 /* cell number */
 .gallery-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(gallery-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
+	display: block;
+	text-align: center;
+	content: counter(gallery-cell);
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
 }
 /* big buttons, no circle */
 .flickity-prev-next-button {
-    width: 100px;
-    height: 100px;
-    background: transparent;
+	width: 100px;
+	height: 100px;
+	background: transparent;
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-    fill: white;
-    /*display: none;*/
+	fill: white;
+	/*display: none;*/
 }
 .flickity-prev-next-button.no-svg {
-    color: white;
+	color: white;
 }
 .flickity-prev-next-button:hover {
-    background: transparent;
+	background: transparent;
 }
 /* hide disabled button */
 .flickity-prev-next-button:disabled {
-    display: none;
+	display: none;
 }
 /* position dots in gallery */
 .flickity-page-dots {
-    bottom: 10px;
+	bottom: 10px;
 }
 /* white circles */
 .flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid white;
+	width: 12px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: 2px solid white;
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-    background: white;
+	background: white;
 }
 
-
 .temp {
-    height: 550px;
-    width: 100vw;
-    background-color: #FAEEDE;
+	height: 550px;
+	width: 100vw;
+	background-color: #faeede;
 }
 
 .temp2 {
-    height: 550px;
-    width: 100vw;
-    background-color: #FAEEDE;
+	height: 550px;
+	width: 100vw;
+	background-color: #faeede;
 }
 
-
-
 .whoBox {
-    display: flex;
-    justify-content: center;
-    /*border: dashed black 1px;*/
+	display: flex;
+	justify-content: center;
+	/*border: dashed black 1px;*/
 }
 
 .aboutPage {
-    height: 500px;
-    width: 100vw;
-    padding: 30px 40px;
-  /*  border: solid yellow 5px; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+	height: 500px;
+	width: 100vw;
+	padding: 30px 40px;
+	/*  border: solid yellow 5px; */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .wholeft {
-    height:100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-  /*  border: solid green 1px;*/
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	/*  border: solid green 1px;*/
 }
-.whoTitle{
-    flex-grow: 1;
+.whoTitle {
+	flex-grow: 1;
 }
-.whoarewetitle{
-    height: 100%;
-    width: 100%;
+.whoarewetitle {
+	height: 100%;
+	width: 100%;
+	margin-right: 20px;
 }
-.whoText{
-    flex-grow: 1; 
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 130%;
-    line-height: 32px;
-    padding: 0px 60px;
-    padding-bottom: 40px;
-    color: #2B425F;
-    margin-top: 40px;
-    /*border: solid red 1px;*/
+.whoText {
+	flex-grow: 1;
+	width: auto;
+	height: auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 130%;
+	line-height: 32px;
+	color: #2b425f;
+	margin-top: 40px;
+	margin-right: 20px;
+	/*border: solid red 1px;*/
 }
 .whoright {
-    /*height:100% !important;*/
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    /*border: solid blue 1px;*/
+	/*height:100% !important;*/
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	/*border: solid blue 1px;*/
 }
 .teampic {
-    height:100% !important;
-    width:100% !important;
+	height: 100% !important;
+	width: 100% !important;
 }
 
 .centerText {
-    text-align: center;
+	text-align: center;
 }
-.explore, .warung {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+.explore,
+.warung {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .exploreHeading {
-    font-size: 60px;
-    font-family: BLANCH_CONDENSED;
-    color: #2B425F;
+	font-size: 60px;
+	font-family: BLANCH_CONDENSED;
+	color: #2b425f;
 }
 
-.warunglink, .explorelink {
-    text-decoration: none;
+.warunglink,
+.explorelink {
+	text-decoration: none;
 }
 .warunglink:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .explorelink:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-@media (min-width: 800px){
-    .aboutmobile {
-        display: none;
-    }
+@media (min-width: 800px) {
+	.aboutmobile {
+		display: none;
+	}
 }
 
-@media(max-width: 799px){
-    .gallery{
-        display: none;
-    }
+@media (max-width: 799px) {
+	.gallery {
+		display: none;
+	}
 }
 
-@media (max-width: 900px){
-    .aboutPage {
-        height: auto;
-        width: 100vw;
-        padding: 30px 40px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-    
-    }
-    .temp {
-        height: 1000px;
-    }
-    .temp2 {
-        height: 1000px;
-    }
-    .wholeft {
-    height:auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 5;
-    }
-    .whoright {
-    height: 100%;
-    width: 100%;
-    display: flex-end;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding: 0px 40px;
-    flex-grow: 2;
-    }
-    .whoText{
-    flex-grow: 1; 
-    width: auto;
-    height: 375px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 40px 60px;
-    color: #2B425F;
-     margin-top: 70px;
-    }   
-    .whoarewetitle{
-        height: 150px;
-        width: 100%;
-    }
-    .whoTitle{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
+@media (max-width: 900px) {
+	.aboutPage {
+		height: auto;
+		width: 100vw;
+		padding: 30px 40px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+	.temp {
+		height: 1000px;
+	}
+	.temp2 {
+		height: 1000px;
+	}
+	.wholeft {
+		height: auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 5;
+	}
+	.whoright {
+		height: 100%;
+		width: 100%;
+		display: flex-end;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		padding: 0px 40px;
+		flex-grow: 2;
+	}
+	.whoText {
+		flex-grow: 1;
+		width: auto;
+		height: 375px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		padding: 40px 60px;
+		color: #2b425f;
+		margin-top: 70px;
+	}
+	.whoarewetitle {
+		height: 150px;
+		width: 100%;
+	}
+	.whoTitle {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
 }
 
-@media (max-width: 540px){
-    .whoText{
-        margin-top: 120px;
-    }
-    img.teampic {
-        height: 300px !important;
-    }
-    .temp , .temp2 {
-        height: 750px;
-    }
-
+@media (max-width: 540px) {
+	.whoText {
+		margin-top: 120px;
+	}
+	img.teampic {
+		height: 300px !important;
+	}
+	.temp,
+	.temp2 {
+		height: 750px;
+	}
 }
 
 @media (max-width: 405px) {
-    .whoText {
-        width: 100%;
-        margin-left: -0px;
-        margin-top: -0px;
-        font-size: 12px;
-    }
+	.whoText {
+		width: 100%;
+		margin-left: -0px;
+		margin-top: -0px;
+		font-size: 12px;
+	}
 
-    .whoright, img.teampic {
-        height: 200px;
-        width: 100%;
-        margin-top: -80px;
-        margin-left: -20px;
-    }
+	.whoright,
+	img.teampic {
+		height: 200px;
+		width: 100%;
+		margin-top: -80px;
+		margin-left: -20px;
+	}
 
-    .whoarewetitle {
-        height: 150px;
-        width: 320px;
-    }
+	.whoarewetitle {
+		height: 150px;
+		width: 320px;
+	}
 
-    .temp, .temp2 {
-        height: 700px;
-    }
+	.temp,
+	.temp2 {
+		height: 700px;
+	}
 
-    @media (max-width: 320px) {
-        .gallery {
-            display: none;
-        }
+	@media (max-width: 320px) {
+		.gallery {
+			display: none;
+		}
 
-        .whoText {
-            width: 400px;
-            margin-left: -90px;
-            margin-top: 75px;
-            font-size: 12px;
-        }
+		.whoText {
+			width: 400px;
+			margin-left: -90px;
+			margin-top: 75px;
+			font-size: 12px;
+		}
 
-        .whoright, img.teampic {
-            height: 200px;
-            width: 400px;
-            margin-top: -60px;
-            margin-left: -60px;
-        }
+		.whoright,
+		img.teampic {
+			height: 200px;
+			width: 400px;
+			margin-top: -60px;
+			margin-left: -60px;
+		}
 
-        .whoarewetitle {
-            height: 100px;
-            width: 280px;
-        }
+		.whoarewetitle {
+			height: 100px;
+			width: 280px;
+		}
 
-        .temp {
-            height: 400px;
-        }
+		.temp {
+			height: 400px;
+		}
 
-        .temp2, img.teampic {
-            display: none;
-        }
-
-
-    }
+		.temp2,
+		img.teampic {
+			display: none;
+		}
+	}
 }
