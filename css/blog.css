@@ -20,12 +20,128 @@ body {
     font-size: 16px;
 }
 
+/** TITLE **/
 .blog .blog_title {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 100px;
     text-align: center;
 }
 
+/** AUTHOR **/
+.blog .author {
+    margin-bottom: 50px;
+}
+
+.blog .author .name_card {
+    background-color: #e8abc5;
+    overflow: hidden;
+    width: 250px;
+    margin-left: 200px;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.blog .author img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.blog .author p {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.blog .author .author_name {
+    margin-top: 10px;
+}
+
+.blog .author .author_name a {   
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.blog .author .date {
+    color: #6c616c;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .blog .author .name_card {
+        margin-left: 0;
+        width: 200px;
+    }
+
+    .blog .author img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .blog .author .author_name {
+        margin-top: 0;
+    }
+
+    .blog .author .author_name a {
+        font-size: 18px;
+    }
+
+    .blog .author .date {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .blog .author .name_card {
+        margin-left: 100px;
+        width: 225px;
+    }
+
+    .blog .author img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .blog .author .author_name {
+        margin-top: 5px;
+    }
+
+    .blog .author .author_name a {
+        font-size: 18px;
+    }
+
+    .blog .author .date {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .blog .author .name_card {
+        margin-left: 150px;
+        width: 225px;
+    }
+
+    .blog .author img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+
+    .blog .author .author_name {
+        margin-top: 5px;
+    }
+
+    .blog .author .author_name a {
+        font-size: 19px;
+    }
+}
+
+/** MAIN IMAGE **/
 .blog .main_image img {
     display: block;
     margin-left: auto;

@@ -49,14 +49,6 @@
         <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
         <!-- FONT AWESOME -->
         <script src="https://kit.fontawesome.com/e3e202619d.js" crossorigin="anonymous"></script>
-        <!-- Initialize the slider -->
-        <script>
-            $(document).ready(function(){
-                $('.slider').bxSlider({
-                    auto: true,
-                });
-            });
-        </script>
 	</head>
 
 	<body>
@@ -67,15 +59,32 @@
         <div class="container-fluid blog">
             <div class="container">
 
+                <!--AUTHOR -->
+                <div class="row author">
+                    <div class="col-md-6">
+                        <div class="name_card">
+                            <a href="https://www.instagram.com/julianw_21" target="_blank" rel="noopener noreferrer">
+                                <img src="media/blog/rick.jpg" class="img-fluid">
+                            </a>
+                            <p class="author_name"><a href="https://www.instagram.com/julianw_21" target="_blank" rel="noopener noreferrer">Rick Widjaja</a></p>
+                            <p class="date">June 10, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+
+                <!-- TITLE-->
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <!-- TITLE -->
                         <p class="blog_title">BLOG</p>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
 
+                
+
+                <!-- MAIN IMAGE -->
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 main_image">
@@ -430,6 +439,14 @@
                   },
               }
           });
+        });
+    </script>
+    <!-- Initialize the bxslider -->
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+            });
         });
     </script>
 </html>
