@@ -31,11 +31,18 @@
 }
 
 .blog .contain {
-    background-image: url(../media/background/bluebg.jpg);
+    /** background-image: url(../media/background/bluebg.jpg); **/
+    background: burlywood;
 }
 
 .blog .contain_2 {
     padding: 25px 100px;
+}
+
+@media (max-width: 787px) {
+    .blog .contain_2 {
+        padding: 25px 40px;
+    }
 }
 
 /** HEADER **/
@@ -78,6 +85,20 @@
     font-size: 18px
 }
 
+@media (max-width: 787px) {
+    .blog .header {
+        padding: 10px 20px;
+    }
+
+    .blog .header .blog_name h1 {
+        font-size: 100px !important;
+    }
+
+    .blog .header .blog_title .title_desc {
+        margin-top: 10px;
+    }
+}
+
 /** ARTICLE **/
 .blog .article {
     background: #dfe6e9;
@@ -87,6 +108,7 @@
     box-shadow: 10px 10px 20px 0.5px #000000;
 }
 
+/** AJAKAN **/
 .blog .ajakan {
     margin-top: 100px;
 }
@@ -273,7 +295,7 @@
 
 .blog .article_2 .fun_fact {
     background: #dfe6e9;
-    padding: 30px 40px;
+    padding: 15px 25px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 0.5px #000000;
     float: right;
@@ -284,7 +306,11 @@
 }
 
 .contain_2 .step .steps {
-    padding: 15px 0;
+    padding: 25px 0;
+}
+
+.contain_2 .step .steps p {
+    margin-top: 10px;
 }
 
 .contain_2 .example {
@@ -300,3 +326,8 @@
     margin-top: 5px;
     text-align: center;
 }
+
+.contain_2 .example h2 {
+    font-size: 50px;
+}
+
