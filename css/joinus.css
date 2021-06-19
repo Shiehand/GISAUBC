@@ -8,206 +8,210 @@ CC9393 - Peach
 FCEEE6 - Pink
 */
 
-
 @font-face {
-font-family: DIN;
-src: url(font/DIN.ttf);
+	font-family: DIN;
+	src: url(font/DIN.ttf);
 }
 
 @font-face {
-font-family: BLANCH_CONDENSED;
-src: url(font/BLANCH_CONDENSED.otf);
+	font-family: BLANCH_CONDENSED;
+	src: url(font/BLANCH_CONDENSED.otf);
 }
 
 #contact-page {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    max-width: 1240px;
-    align-self: center;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	max-width: 1240px;
+	align-self: center;
 }
 
 .contactImage {
-    flex-grow: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-    width: 100%;
+	flex-grow: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 450px;
+	width: 100%;
 }
 
 .joinustext {
-    width: 85%;
-    height: auto;
+	width: 85%;
+	height: auto;
 }
 
 .contact-form {
-    flex-grow: 1;
-    /*border: solid black 1px;*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+	flex-grow: 1;
+	/*border: solid black 1px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 
 .subbox {
-    display:block;
-    padding-left: 15px;
-    text-indent: -15px;
-    color: white;
-    font-family: Courier New, sans-serif;
+	display: block;
+	padding-left: 15px;
+	text-indent: -15px;
+	color: white;
+	font-family: Courier New, sans-serif;
 }
 
 .subcheck {
-    width: 13px;
-    height: 13px;
-    padding: 0;
-    margin:0;
-    vertical-align: bottom;
-    position: relative;
-    top: -1px;
-    overflow: hidden;
+	width: 13px;
+	height: 13px;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	top: -1px;
+	overflow: hidden;
 }
 
 .footsocial {
-    width: 100vw;
-    background: black;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    opacity: 0.9;
-    padding: 10px 0;
+	background: black;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	opacity: 0.9;
+	padding: 10px 0;
 }
 
-.footsocial .email:hover{
-    background: #C98524;
+.footsocial .email:hover {
+	background: #c98524;
 }
-.footsocial .facebook:hover{
-    background: #2B425F;
+.footsocial .facebook:hover {
+	background: #2b425f;
 }
-.footsocial .instagram:hover{
-    background: #CC9393;
+.footsocial .instagram:hover {
+	background: #cc9393;
 }
-.footsocial .youtube:hover{
-    background: #A62F2F;
-}
-
-.footsocial .email, .footsocial .facebook, .footsocial .instagram, .footsocial .youtube {
-    height: 70px !important;
-    width: 70px !important;
-    padding: 10px 10px;
-    opacity: 0.8;
-    border-radius: 40%;
+.footsocial .youtube:hover {
+	background: #a62f2f;
 }
 
-.email:hover, .facebook:hover, .instagram:hover, .youtube:hover {
-    opacity: 1;
+.footsocial .email,
+.footsocial .facebook,
+.footsocial .instagram,
+.footsocial .youtube {
+	height: 70px !important;
+	width: 70px !important;
+	padding: 10px 10px;
+	opacity: 0.8;
+	border-radius: 40%;
+}
+
+.email:hover,
+.facebook:hover,
+.instagram:hover,
+.youtube:hover {
+	opacity: 1;
 }
 
 .copyright {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: white;
-    font-family: Courier New, sans-serif;
-    padding: 10px 10px;
-    background: black;
-    opacity: 1;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	color: white;
+	font-family: Courier New, sans-serif;
+	padding: 10px 10px;
+	background: black;
+	opacity: 1;
 }
 
 #sponsor {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .sponsorimg {
-    height: 100px;
-    width: auto;
-    padding-left: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+	height: 100px;
+	width: auto;
+	padding-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
-input, textarea, select {
-    background-color: cornsilk;
-    right: 0;
-    padding: 12px 20px !important;
-    margin: 5px 0 !important;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: black;
-    font-size: 13px;
-    line-height: 100%;
-    font-family: "Courier New", sans-serif;
-    width: 100%;
+input,
+textarea,
+select {
+	background-color: cornsilk;
+	right: 0;
+	padding: 12px 20px !important;
+	margin: 5px 0 !important;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: black;
+	font-size: 13px;
+	line-height: 100%;
+	font-family: 'Courier New', sans-serif;
+	width: 100%;
 }
 
-input[type=submit]:hover {
-    background-color: pink;
+input[type='submit']:hover {
+	background-color: pink;
 }
 
 form {
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
 }
 
-
-@media (max-width: 750px){
-    #page3 {
-        height: auto;
-    }
-    #contact-page {
-        height: 800px;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .contact-form {
-        margin-top: -300px;
-    }
-    .joinustext {
-        height: 350px;
-        width: 350px;
-        margin-top: -100px;
-    }
-    .contactImage {
-        height: 350px;
-        width: auto;
-    }
-    label.subbox{
-        font-size: 12px;
-    }
-    input {
-        height: 30px;
-    }
-    .submit-button{
-        font-family: "Courier New", sans-serif;
-    }
-    #sponsor {
-        height:auto;
-    }
-    .sponsorimg {
-        margin: 25px 0;
-    }
-    input.subcheck {
-        width: 7px;
-        height: 7px;
-    }
+@media (max-width: 750px) {
+	#page3 {
+		height: auto;
+	}
+	#contact-page {
+		height: 800px;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.contact-form {
+		margin-top: -300px;
+	}
+	.joinustext {
+		height: 350px;
+		width: 350px;
+		margin-top: -100px;
+	}
+	.contactImage {
+		height: 350px;
+		width: auto;
+	}
+	label.subbox {
+		font-size: 12px;
+	}
+	input {
+		height: 30px;
+	}
+	.submit-button {
+		font-family: 'Courier New', sans-serif;
+	}
+	#sponsor {
+		height: auto;
+	}
+	.sponsorimg {
+		margin: 25px 0;
+	}
+	input.subcheck {
+		width: 7px;
+		height: 7px;
+	}
 }
 
-@media (max-width: 320px){
-    img.joinustext{
-        width: 300px;
-        height:300px;
-        margin-left: -20px;
-    }
-    .sponsorimg {
-        max-width: 280px;
-    }
+@media (max-width: 320px) {
+	img.joinustext {
+		width: 300px;
+		height: 300px;
+		margin-left: -20px;
+	}
+	.sponsorimg {
+		max-width: 280px;
+	}
 }
