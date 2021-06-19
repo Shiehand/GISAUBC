@@ -1,333 +1,335 @@
 .blog {
-    padding: 50px 20px;
-    text-align: left;
+	padding: 50px 20px;
+	text-align: left;
 }
 
 .blog .container {
-    /** width: 1280px; **/
-    max-width: none;
+	/** width: 1280px; **/
+	max-width: none;
 }
 
 .blog h1 {
-    font-family: "Trial2", "League Spartan" !important;
+	font-family: 'Trial2', 'League Spartan' !important;
 }
 
 .blog h2 {
-    font-size: 30px;
-    font-family: "Trial2", "League Spartan" !important;
+	font-size: 30px;
+	font-family: 'Trial2', 'League Spartan' !important;
 }
 
 .blog p {
-    font-size: 16px;
-    font-family: "Montserrat", "Libre Baskerville";
+	font-size: 16px;
+	font-family: 'Montserrat', 'Libre Baskerville';
 }
 
 .blog {
-    padding: 0;
+	padding: 0;
 }
 
 .blog .container {
-    padding: 0;
+	padding: 0;
 }
 
 .blog .contain {
-    /** background-image: url(../media/background/bluebg.jpg); **/
-    background: burlywood;
+	/** background-image: url(../media/background/bluebg.jpg); **/
+	background: burlywood;
 }
 
 .blog .contain_2 {
-    padding: 25px 100px;
+	padding: 25px 100px;
 }
 
 @media (max-width: 787px) {
-    .blog .contain_2 {
-        padding: 25px 40px;
-    }
+	.blog .contain_2 {
+		padding: 25px 40px;
+	}
 }
 
 /** HEADER **/
 .blog .header {
-    padding: 50px 120px;
+	padding: 50px 120px;
+}
+
+.header {
+	margin: 0;
 }
 
 .blog .header .blog_name {
-    text-align: center;
+	text-align: center;
+	overflow-wrap: break-word;
 }
 
 .blog .header .blog_name h1 {
-    font-size: 120px !important;
-    color: #ffebe4 !important;
+	font-size: 120px !important;
+	color: #ffebe4 !important;
 }
 
 .blog .header .blog_title {
-    margin-top: 100px;
-    margin-bottom: 50px;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 .blog .header .blog_title img {
-    border-radius: 15px;
+	border-radius: 15px;
 }
 
 .blog .header .blog_title .title_desc {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 .blog .header .blog_title .title_desc h1 {
-    color: #ffebe4 !important;
-    font-size: 60px !important;
+	color: #ffebe4 !important;
+	font-size: 60px !important;
 }
 
 .blog .header .blog_title .title_desc p {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 .blog .contain_2 .author p {
-    font-size: 18px
+	font-size: 18px;
 }
 
 @media (max-width: 787px) {
-    .blog .header {
-        padding: 10px 20px;
-    }
+	.blog .header {
+		padding: 10px 20px;
+	}
 
-    .blog .header .blog_name h1 {
-        font-size: 100px !important;
-    }
+	.blog .header .blog_name h1 {
+		font-size: 100px !important;
+	}
 
-    .blog .header .blog_title .title_desc {
-        margin-top: 10px;
-    }
+	.blog .header .blog_title .title_desc {
+		margin-top: 10px;
+	}
 }
 
 /** ARTICLE **/
 .blog .article {
-    background: #dfe6e9;
-    padding: 30px 40px;
-    border-radius: 20px;
-    margin-top: 100px;
-    box-shadow: 10px 10px 20px 0.5px #000000;
+	background: #dfe6e9;
+	padding: 30px 40px;
+	border-radius: 20px;
+	margin-top: 100px;
+	box-shadow: 10px 10px 20px 0.5px #000000;
 }
 
 /** AJAKAN **/
 .blog .ajakan {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 
 .blog .ajakan .row {
-    margin-bottom: 10px;
 }
 
 .blog .ajakan .title {
-    margin-bottom: 35px;
+	margin-bottom: 35px;
 }
 
 .blog .ajakan .title h2 {
-    font-weight: bold;
-    color: #b23636;
-    font-size: 45px;
-    margin-bottom: 0;
+	font-weight: bold;
+	color: #b23636;
+	font-size: 45px;
+	margin-bottom: 0;
 }
 
 .blog .ajakan .title hr {
-    border-top: 5px solid #5c0808;
+	border-top: 5px solid #5c0808;
 	width: 75px;
 	display: inline-block;
-    opacity: 1;
+	opacity: 1;
 }
 
-.blog .ajakan .row .col-md-4, .blog .ajakan .row .col-lg-4 {
-    padding: 0;
+.blog .ajakan .row .col-md-4,
+.blog .ajakan .row .col-lg-4 {
+	padding: 0;
 }
 
 .blog .ajakan .card {
-    background: rgba(255, 250, 170);
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 10px 10px 20px 0.5px #000000;
+	background: rgba(255, 250, 170);
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 20px 0.5px #000000;
 }
 
 .blog .ajakan .card img {
-    width: 250px;
-    margin: auto;
-    margin-top: 10px;
+	width: 250px;
+	margin: auto;
+	margin-top: 10px;
 }
 
 .blog .ajakan .card p {
-    margin: auto;
-    margin-top: 10px;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 65px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 65px;
 }
 
 .blog .ajakan .card:hover {
-    /** box-shadow: 5px 5px 10px 5px #ffaa81; **/
-    box-shadow: 5px 5px 10px 5px #8db4b9; 
+	/** box-shadow: 5px 5px 10px 5px #ffaa81; **/
+	box-shadow: 5px 5px 10px 5px #8db4b9;
 	transform: translateY(-10px);
 	-webkit-transform: translateY(-10px);
 	-moz-transform: translateY(-10px);
 }
 
 @media (max-width: 767px) {
-    .blog .ajakan .row {
-        margin-left: 0;
-        margin-bottom: 0;
-    }
+	.blog .ajakan .row {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
 }
-
 
 /** TESTIMONIAL **/
 .testimonial {
-    margin-top: 65px;
+	margin-top: 65px;
 }
 
 .testimonial .top {
-    margin-left: 5px;
+	margin-left: 5px;
 }
 
 .testimonial .top h2 {
-    font-weight: bold;
-    color: #b23636;
-    font-size: 50px;
-    margin-bottom: 0;
+	font-weight: bold;
+	color: #b23636;
+	font-size: 50px;
+	margin-bottom: 0;
 }
 
 .testimonial .top hr {
-    border-top: 5px solid #5c0808;
+	border-top: 5px solid #5c0808;
 	width: 75px;
 	display: inline-block;
-    opacity: 1;
+	opacity: 1;
 }
 
 .testimonial .top p {
-    margin-top: 20px;
-    padding: 5px;
+	margin-top: 20px;
+	padding: 5px;
 }
 
 .testimonial .bottom {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .testimonial .bottom .item {
-    padding: 15px 0px;
+	padding: 15px 0px;
 }
 
 .testimonial .bottom .card {
-    background: rgb(255, 255, 255);
-    box-shadow: 0 0 10px #dfe6e9;;
-    margin: 0 15px;
-    border: none;
+	background: rgb(255, 255, 255);
+	box-shadow: 0 0 10px #dfe6e9;
+	margin: 0 15px;
+	border: none;
 }
 
 .testimonial .bottom .card .content {
-    padding: 30px;
+	padding: 30px;
 }
 
 .testimonial .bottom .card img {
-    width: 120px;
-    margin: auto;
+	width: 120px;
+	margin: auto;
 }
 
 .testimonial .bottom .card p {
-    padding: 10px;
-    margin: auto;
-    text-align: center;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
 }
 
 .testimonial .bottom .card .testi i {
-    color: #b23636;
-    margin: 0 5px;
+	color: #b23636;
+	margin: 0 5px;
 }
 
 .testimonial .bottom .card .name {
-    text-align: center;
-    margin-top: 30px;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .testimonial .bottom .card .profile {
-    margin: auto;
-    margin-top: 5px;
+	margin: auto;
+	margin-top: 5px;
 }
 
 .testimonial .owl-nav {
-    display: none;
+	display: none;
 }
 
 .testimonial .owl-dots {
-    text-align: center;
-    margin-top: 10px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .testimonial .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
-    margin: 5px 7px;
-    background: #D6D6D6;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity .2s ease;
-    border-radius: 30px;
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #d6d6d6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity 0.2s ease;
+	border-radius: 30px;
 }
 
 .testimonial .owl-dots .active span {
-    background: url(../media/background/redbg.jpg);
+	background: url(../media/background/redbg.jpg);
 }
 
 @media (max-width: 767px) {
 	.testimonial .bottom {
-        margin-left: 0;
-    }
+		margin-left: 0;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.blog .blog_title {
-	    font-size: 90px;
+		font-size: 90px;
 	}
 }
 
 .contain_2 .article_2 {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 .blog .article_2 .fun_fact {
-    background: #dfe6e9;
-    padding: 15px 25px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px 0.5px #000000;
-    float: right;
+	background: #dfe6e9;
+	padding: 15px 25px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px 0.5px #000000;
+	float: right;
 }
 
 .contain_2 .step {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .contain_2 .step .steps {
-    padding: 25px 0;
+	padding: 25px 0;
 }
 
 .contain_2 .step .steps p {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .contain_2 .example {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 .contain_2 .example img {
-    margin-top: 10px;
-    width: 100%;
+	margin-top: 10px;
+	width: 100%;
 }
 
 .contain_2 .example p {
-    margin-top: 5px;
-    text-align: center;
+	margin-top: 5px;
+	text-align: center;
 }
 
 .contain_2 .example h2 {
-    font-size: 50px;
+	font-size: 50px;
 }
-

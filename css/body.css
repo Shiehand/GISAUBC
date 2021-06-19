@@ -1,23 +1,16 @@
 html {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-    font-size: 21px;
-    text-align: center;
-    animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+	font-size: 21px;
+	text-align: center;
+	animation: fadein 1s;
+	-moz-animation: fadein 1s; /* Firefox */
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+	-o-animation: fadein 1s; /* Opera */
 }
 
 #body {
-	background: url("../media/background/redbg.jpg");
-    background-size: contain;
-    height: auto;
-    padding: 20px 20px;
-    justify-content: center;
-    align-items: center;
-    /*
+	background: url('../media/background/redbg.jpg');
+	height: auto;
+	/*
     background-image: url('../media/redbg.jpg');
 
     height: auto; 
@@ -27,30 +20,30 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     */
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 #page_split {
 	display: flex;
 	flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 #page2 {
 	height: 90vh;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 #page3 {
 	height: auto;
 	overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    border-top: dashed #FAEEDE 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	border-top: dashed #faeede 5px;
 }
 
 #sponsor {
@@ -62,34 +55,37 @@ html {
 }
 
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+@-moz-keyframes fadein {
+	/* Firefox */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+@-webkit-keyframes fadein {
+	/* Safari and Chrome */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+@-o-keyframes fadein {
+	/* Opera */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
