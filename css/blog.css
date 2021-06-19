@@ -4,7 +4,6 @@
 }
 
 .blog .container {
-    /** width: 1280px; **/
     max-width: none;
 }
 
@@ -13,7 +12,7 @@
 }
 
 .blog h2 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Trial2", "League Spartan" !important;
 }
 
@@ -31,7 +30,6 @@
 }
 
 .blog .contain {
-    /** background-image: url(../media/background/bluebg.jpg); **/
     background: burlywood;
 }
 
@@ -75,10 +73,11 @@
 .blog .header .blog_title .title_desc h1 {
     color: #ffebe4 !important;
     font-size: 60px !important;
+    line-height: 50px;
 }
 
 .blog .header .blog_title .title_desc p {
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .blog .contain_2 .author p {
@@ -293,14 +292,60 @@
     margin-top: 50px;
 }
 
-.blog .article_2 .fun_fact {
-    background: #dfe6e9;
-    padding: 15px 25px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px 0.5px #000000;
-    float: right;
+/** FUN FACT **/
+.contain_2 .article_2 .fun_fact {
+    margin-top: 40px;
 }
 
+/** TIPS **/
+.contain_2 .article_2 .tips {
+    margin-top: 40px;
+}
+
+/** REGISTER **/
+.contain_2 .article_2 .register {
+    margin-top: 40px;
+}
+
+/** NAVIGATOR **/
+.contain_2 .article_2 .navigator {
+    margin-top: 40px;
+}
+
+/** EXAMPLE **/
+.contain_2 .example {
+    margin-top: 40px;
+}
+
+.contain_2 .example .row {
+    margin-top: 20px;
+}
+
+.contain_2 .example img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.contain_2 .example p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contain_2 .example .short_desc {
+    text-align: left;
+}
+
+.contain_2 .example .samples {
+    margin-top: 40px;
+}
+
+
+/** STEPS (unused) **/
 .contain_2 .step {
     margin-top: 20px;
 }
@@ -312,22 +357,3 @@
 .contain_2 .step .steps p {
     margin-top: 10px;
 }
-
-.contain_2 .example {
-    margin-top: 50px;
-}
-
-.contain_2 .example img {
-    margin-top: 10px;
-    width: 100%;
-}
-
-.contain_2 .example p {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.contain_2 .example h2 {
-    font-size: 50px;
-}
-
