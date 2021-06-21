@@ -101,6 +101,18 @@
 	.blog .header .blog_title .title_desc {
 		margin-top: 10px;
 	}
+
+	.blog .header img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 400px) {
+    .blog .header .blog_name h1 {
+        font-size: 80px !important;
+    }
 }
 
 /** ARTICLE **/
@@ -300,9 +312,21 @@
     margin-top: 40px;
 }
 
+.contain_2 .article_2 .fun_fact a {
+	text-decoration: none;
+}
+
 /** TIPS **/
 .contain_2 .article_2 .tips {
     margin-top: 40px;
+}
+
+.contain_2 .article_2 .tips img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 700px;
+	width: 100%;
 }
 
 /** REGISTER **/
@@ -310,9 +334,17 @@
     margin-top: 40px;
 }
 
+.contain_2 .article_2 .register a {
+    text-decoration: none;
+}
+
 /** NAVIGATOR **/
 .contain_2 .article_2 .navigator {
     margin-top: 40px;
+}
+
+.contain_2 .article_2 .navigator a {
+    text-decoration: none;
 }
 
 /** EXAMPLE **/
