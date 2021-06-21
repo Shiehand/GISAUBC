@@ -69,6 +69,7 @@
 
 .blog .header .blog_title img {
 	border-radius: 15px;
+	float: right;
 }
 
 .blog .header .blog_title .title_desc {
