@@ -1,3 +1,12 @@
+@font-face {
+	font-family: Trial2;
+	src: url(font/trial2-regular-webfont.woff);
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(font/Montserrat-Regular.ttf);
+}
 .blog {
 	padding: 50px 20px;
 	text-align: left;
