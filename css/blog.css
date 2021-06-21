@@ -1,10 +1,20 @@
+@font-face {
+	font-family: Trial2;
+	src: url(font/trial2-regular-webfont.woff);
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(font/Montserrat-Regular.ttf);
+}
+
 .blog {
 	padding: 50px 20px;
 	text-align: left;
 }
 
 .blog .container {
-    max-width: none;
+	max-width: none;
 }
 
 .blog h1 {
@@ -12,8 +22,8 @@
 }
 
 .blog h2 {
-    font-size: 35px;
-    font-family: "Trial2", "League Spartan" !important;
+	font-size: 35px;
+	font-family: 'Trial2', 'League Spartan' !important;
 }
 
 .blog p {
@@ -30,7 +40,7 @@
 }
 
 .blog .contain {
-    background: burlywood;
+	background: burlywood;
 }
 
 .blog .contain_2 {
@@ -77,13 +87,13 @@
 }
 
 .blog .header .blog_title .title_desc h1 {
-    color: #ffebe4 !important;
-    font-size: 60px !important;
-    line-height: 50px;
+	color: #ffebe4 !important;
+	font-size: 60px !important;
+	line-height: 50px;
 }
 
 .blog .header .blog_title .title_desc p {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 /** AUTHOR **/
@@ -114,9 +124,9 @@
 }
 
 @media (max-width: 400px) {
-    .blog .header .blog_name h1 {
-        font-size: 80px !important;
-    }
+	.blog .header .blog_name h1 {
+		font-size: 80px !important;
+	}
 }
 
 /** BANNER **/
@@ -318,7 +328,7 @@
 
 /** FUN FACT **/
 .contain_2 .article_2 .fun_fact {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .contain_2 .article_2 .fun_fact a {
@@ -327,52 +337,52 @@
 
 /** TIPS **/
 .contain_2 .article_2 .tips {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .contain_2 .article_2 .tips img {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 700px;
 	width: 100%;
 }
 
 /** REGISTER **/
 .contain_2 .article_2 .register {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .contain_2 .article_2 .register a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /** NAVIGATOR **/
 .contain_2 .article_2 .navigator {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .contain_2 .article_2 .navigator a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /** EXAMPLE **/
 .contain_2 .example {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .contain_2 .example .row {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .contain_2 .example img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 100%;
+	max-width: 600px;
+	margin-bottom: 40px;
 }
 
 .contain_2 .example p {
@@ -381,23 +391,22 @@
 }
 
 .contain_2 .example .short_desc {
-    text-align: left;
+	text-align: left;
 }
 
 .contain_2 .example .samples {
-    margin-top: 40px;
+	margin-top: 40px;
 }
-
 
 /** STEPS (unused) **/
 .contain_2 .step {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .contain_2 .step .steps {
-    padding: 25px 0;
+	padding: 25px 0;
 }
 
 .contain_2 .step .steps p {
-    margin-top: 10px;
+	margin-top: 10px;
 }
