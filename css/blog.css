@@ -31,6 +31,10 @@
 	font-family: 'Montserrat', 'Libre Baskerville';
 }
 
+.blog a {
+	color: #ef4a46;
+}
+
 .blog {
 	padding: 0;
 }
