@@ -31,6 +31,10 @@
 	font-family: 'Montserrat', 'Libre Baskerville';
 }
 
+.blog a {
+	color: #ef4a46;
+}
+
 .blog {
 	padding: 0;
 }
@@ -96,10 +100,6 @@
 	margin-top: 10px;
 }
 
-.blog .contain_2 .author p {
-	font-size: 18px;
-}
-
 @media (max-width: 787px) {
 	.blog .header {
 		padding: 10px 20px;
@@ -124,6 +124,11 @@
 	.blog .header .blog_name h1 {
 		font-size: 80px !important;
 	}
+}
+
+/** BANNER **/
+.blog .banner img {
+	width: 100%;
 }
 
 /** ARTICLE **/
@@ -318,6 +323,55 @@
 	margin-top: 50px;
 }
 
+/** INTRO **/
+.blog .contain_2 .intro {
+	margin-bottom: 30px;
+	padding: 0 10px;
+	margin-top: 50px;
+}
+
+/** AUTHOR **/
+
+.blog .contain_2 .author img {
+	max-width: 100px;
+	max-height: 100px;
+	float: left;
+	border-radius: 50%;
+}
+
+.blog .contain_2 .author p {
+	margin-top: 45px;
+	margin-left: 110px;
+	margin-bottom: 0;
+	font-size: 13px;
+}
+
+.blog .contain_2 .author .name {
+	font-size: 14px;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+.blog .contain_2 .author .date {
+	font-size: 14px;
+	color: #999;
+	margin-top: 0;
+	font-size: 12px;
+}
+
+@media (max-width: 767px) {
+	.blog .contain_2 .author img {
+		max-width: 85px;
+		max-height: 85px;
+	}
+
+	.blog .contain_2 .author p {
+		margin-top: 30px;
+		margin-left: 95px;
+	}
+}
+
+
 /** FUN FACT **/
 .contain_2 .article_2 .fun_fact {
 	margin-top: 40px;
@@ -327,9 +381,17 @@
 	text-decoration: none;
 }
 
+.contain_2 .article_2 .fun_fact img {
+	width: 100%;
+	max-width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /** TIPS **/
 .contain_2 .article_2 .tips {
-	margin-top: 40px;
+	margin-top: 90px;
 }
 
 .contain_2 .article_2 .tips img {
@@ -349,9 +411,18 @@
 	text-decoration: none;
 }
 
+.contain_2 .article_2 .register img {
+	width: 100%;
+	max-width: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
 /** NAVIGATOR **/
 .contain_2 .article_2 .navigator {
-	margin-top: 40px;
+	margin-top: 90px;
 }
 
 .contain_2 .article_2 .navigator a {
@@ -371,7 +442,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
+	margin-top: 35px;
 	width: 100%;
 	max-width: 600px;
 	margin-bottom: 40px;
@@ -380,6 +451,7 @@
 .contain_2 .example p {
 	margin-top: 5px;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 .contain_2 .example .short_desc {
@@ -388,6 +460,15 @@
 
 .contain_2 .example .samples {
 	margin-top: 40px;
+}
+
+.contain_2 .example .samples a {
+	text-decoration: none;
+}
+
+.contain_2 .example .samples .fac_name {
+	font-family: 'Trial2';
+	font-size: 35px !important;
 }
 
 /** STEPS (unused) **/
@@ -402,3 +483,4 @@
 .contain_2 .step .steps p {
 	margin-top: 10px;
 }
+
