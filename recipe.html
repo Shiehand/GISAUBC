@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta
+			charset="UTF-8"
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Gado-Gado Indonesian Student Association UBC</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<!--BOOTSTRAP-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<!--BOOTSTRAP-->
+		<link rel="shortcut icon" href="media/favicon.png" />
+		<!--CAROUSEL-->
+		<link rel="stylesheet" href="css/flickity.css" />
+		<script src="css/flickity.pkgd.js"></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="css/googleanalytics.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/navigation-style.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/body.css" />
+		<link rel="stylesheet" href="css/event.css" />
+		<link rel="stylesheet" href="css/joinus.css" />
+		<link rel="stylesheet" href="css/recipe.css" />
+		<!-- JS -->
+		<script type="text/javascript" src="css/navbar.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div id="nav-placeholder"></div>
+		<!-- navbar -->
+		<!-- copy everything above this to create new page  -->
+		<div class="title">June Recipe</div>
+		<div class="tab">
+			<button
+				class="defaultOpen tablinks main-tab"
+				onclick="openPage(event, 'tahu', 'main-tab')"
+			>
+				Tahu Goreng Perkedel
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'rice', 'main-tab')"
+			>
+				Indonesian Fried Rice
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'pisang', 'main-tab')"
+			>
+				Pisang Goreng
+			</button>
+		</div>
+		<div id="tahu" class="tabcontent main-tab">
+			<h3>Tahu Goreng Perkedel</h3>
+			<img src="media/recipe-image/june-fried-rice.png" />
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient', 'ingredient-tab')"
+					>
+						Ingredient
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div class="ingredientcontainer">
+					<div id="ingredient" class="tabcontent ingredient-tab">
+						<ul class="list-group">
+							<li class="list-group-item">3 soft tofu</li>
+							<li class="list-group-item">
+								3 garlic cloves, minced
+							</li>
+							<li class="list-group-item">3 shallots, minced</li>
+							<li class="list-group-item">
+								2 stems of scallions
+							</li>
+							<li class="list-group-item">2 eggs</li>
+							<li class="list-group-item">
+								mushroom powder, to taste
+							</li>
+							<li class="list-group-item">salt, to taste</li>
+							<li class="list-group-item">pepper, to taste</li>
+							<li class="list-group-item">vegetable oil</li>
+						</ul>
+					</div>
+					<div id="bahan" class="tabcontent ingredient-tab">
+						<ul class="list-group">
+							<li class="list-group-item">3 tahu</li>
+							<li class="list-group-item">
+								3 bawang putih, dicincang
+							</li>
+							<li class="list-group-item">
+								3 bawang merah, dicincang
+							</li>
+							<li class="list-group-item">2 daun bawang</li>
+							<li class="list-group-item">2 telur</li>
+							<li class="list-group-item">2 sdm tepung</li>
+							<li class="list-group-item">bumbu jamur</li>
+							<li class="list-group-item">garam</li>
+							<li class="list-group-item">lada</li>
+							<li class="list-group-item">minyak goreng</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="rice" class="tabcontent main-tab">
+			<h3>Tahu Goreng Perkedel</h3>
+			<img src="media/recipe-image/june-fried-rice.png" />
+			<div class="tab">
+				<button
+					class="defaultOpen tablinks ingredient-tab"
+					onclick="openPage(event, 'ingredient', 'ingredient-tab')"
+				>
+					Ingredient
+				</button>
+				<button
+					class="tablinks ingredient-tab"
+					onclick="openPage(event, 'bahan', 'ingredient-tab')"
+				>
+					Bahan
+				</button>
+			</div>
+			<div class="ingredientcontainer">
+				<div id="ingredient" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">3 soft tofu</li>
+						<li class="list-group-item">3 garlic cloves, minced</li>
+						<li class="list-group-item">3 shallots, minced</li>
+						<li class="list-group-item">2 stems of scallions</li>
+						<li class="list-group-item">2 eggs</li>
+						<li class="list-group-item">
+							mushroom powder, to taste
+						</li>
+						<li class="list-group-item">salt, to taste</li>
+						<li class="list-group-item">pepper, to taste</li>
+						<li class="list-group-item">vegetable oil</li>
+					</ul>
+				</div>
+				<div id="bahan" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">3 tahu</li>
+						<li class="list-group-item">
+							3 bawang putih, dicincang
+						</li>
+						<li class="list-group-item">
+							3 bawang merah, dicincang
+						</li>
+						<li class="list-group-item">2 daun bawang</li>
+						<li class="list-group-item">2 telur</li>
+						<li class="list-group-item">2 sdm tepung</li>
+						<li class="list-group-item">bumbu jamur</li>
+						<li class="list-group-item">garam</li>
+						<li class="list-group-item">lada</li>
+						<li class="list-group-item">minyak goreng</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="pisang" class="tabcontent main-tab">
+			<div class="tab">
+				<button
+					class="defaultOpen tablinks ingredient-tab"
+					onclick="openPage(event, 'ingredient', 'ingredient-tab')"
+				>
+					Ingredient
+				</button>
+				<button
+					class="tablinks ingredient-tab"
+					onclick="openPage(event, 'bahan', 'ingredient-tab')"
+				>
+					Bahan
+				</button>
+			</div>
+			<div class="ingredientcontainer">
+				<div id="ingredient" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">3 soft tofu</li>
+						<li class="list-group-item">3 garlic cloves, minced</li>
+						<li class="list-group-item">3 shallots, minced</li>
+						<li class="list-group-item">2 stems of scallions</li>
+						<li class="list-group-item">2 eggs</li>
+						<li class="list-group-item">
+							mushroom powder, to taste
+						</li>
+						<li class="list-group-item">salt, to taste</li>
+						<li class="list-group-item">pepper, to taste</li>
+						<li class="list-group-item">vegetable oil</li>
+					</ul>
+				</div>
+				<div id="bahan" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">3 tahu</li>
+						<li class="list-group-item">
+							3 bawang putih, dicincang
+						</li>
+						<li class="list-group-item">
+							3 bawang merah, dicincang
+						</li>
+						<li class="list-group-item">2 daun bawang</li>
+						<li class="list-group-item">2 telur</li>
+						<li class="list-group-item">2 sdm tepung</li>
+						<li class="list-group-item">bumbu jamur</li>
+						<li class="list-group-item">garam</li>
+						<li class="list-group-item">lada</li>
+						<li class="list-group-item">minyak goreng</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openPage(evt, tabName, tabGroup) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName(
+					'tabcontent ' + tabGroup
+				);
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = 'none';
+				}
+				tablinks = document.getElementsByClassName(
+					'tablinks ' + tabGroup
+				);
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(
+						' active',
+						''
+					);
+				}
+				const content = document.getElementById(tabName);
+				content.style.display = 'block';
+				evt.currentTarget.className += ' active';
+				content.getElementsByClassName('defaultOpen').click();
+			}
+			const arr = document
+				.getElementsByClassName('defaultOpen')[0]
+				.click();
+		</script>
+	</body>
+</html>
