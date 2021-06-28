@@ -8,21 +8,20 @@ CC9393 - Peach
 FCEEE6 - Pink
 */
 
-
 @font-face {
-font-family: DIN;
-src: url(font/DIN.ttf);
+	font-family: DIN;
+	src: url(font/DIN.ttf);
 }
 
 @font-face {
-font-family: BLANCH_CONDENSED;
-src: url(font/BLANCH_CONDENSED.otf);
+	font-family: BLANCH_CONDENSED;
+	src: url(font/BLANCH_CONDENSED.otf);
 }
 
 h1 {
-	font-family: BLANCH_CONDENSED, monospace !important;
-	font-size: 50px !important;
-	color: #2B425F !important;
+	font-family: BLANCH_CONDENSED, monospace;
+	font-size: 50px;
+	color: #2b425f;
 }
 
 h5 {
@@ -30,19 +29,19 @@ h5 {
 	color: white;
 }
 h6 {
-	color: #2B425F;
+	color: #2b425f;
 	font-family: Helvetica, sans-serif;
 	font-size: 100%;
 }
 
 #page1 {
-        width: 100%;
+	width: 100%;
 	height: auto;
-        display: flex;
+	display: flex;
 	margin-bottom: 20px;
 	flex-direction: column;
 	align-content: center;
-        align-items: center;
+	align-items: center;
 	justify-content: center;
 	max-width: 1240px;
 }
@@ -53,17 +52,17 @@ h6 {
 	display: flex;
 	align-content: center;
 	justify-content: center;
-    padding-top: 10px;
-    align-self: center;
+	padding-top: 10px;
+	align-self: center;
 }
 
-.event_title_detail{
+.event_title_detail {
 	width: 70%;
 	text-align: center;
 	align-self: center;
 }
 
-.eventBody{
+.eventBody {
 	display: flex;
 	width: 100%;
 	height: 100%;
@@ -75,7 +74,7 @@ h6 {
 	padding: 10px 0;
 }
 
-.eventBox{
+.eventBox {
 	display: inline-flex;
 	top: 0;
 	width: 100%;
@@ -90,7 +89,7 @@ h6 {
 	border-radius: 2%;
 }
 
-.eventIcon{
+.eventIcon {
 	width: 190px;
 	height: auto;
 	margin: 10px 10px;
@@ -98,106 +97,104 @@ h6 {
 	border-radius: 100%;
 	border: dashed 4px white;
 	transition: 0.3s ease;
-    cursor: pointer;
+	cursor: pointer;
 }
-a:hover{
+a:hover {
 	text-decoration: none;
 }
 
-.ourevents{ width: 60%; height: auto;}
+.ourevents {
+	width: 60%;
+	height: auto;
+}
 
-
-.eventDesc{
+.eventDesc {
 	padding: 0 30px;
 }
 
-.eventbutton{
+.eventbutton {
 	width: 50%;
 	align-self: center;
 	border-radius: 100%;
 }
 
-
 .container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
+	position: relative;
+	width: 100%;
+	max-width: 400px;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.3s ease;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+	opacity: 1;
 }
 
 .eventButton {
-  color: white;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
-  height: 100%;
+	color: white;
+	font-size: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+	height: 100%;
 }
 
-
-
-@media (max-width: 900px){
-	.eventBody{
+@media (max-width: 900px) {
+	.eventBody {
 		flex-direction: column;
 		align-content: center;
 		padding: 0 20%;
 	}
-	.eventBox{
+	.eventBox {
 		margin-top: 20px;
 		flex-direction: column;
 	}
-	.ourevents{ 
-		width: 100%; 
+	.ourevents {
+		width: 100%;
 		height: auto;
 	}
-
 }
 
-@media (max-width: 560px){
-	.eventIcon{
+@media (max-width: 560px) {
+	.eventIcon {
 		width: 140px;
 		height: auto;
 	}
 }
 
-@media (max-width: 420px){
-	.eventTitle{
+@media (max-width: 420px) {
+	.eventTitle {
 		height: 120%;
 		width: 130%;
 	}
-	.eventBody{
+	.eventBody {
 		padding: 0 10%;
 	}
 }
 
-@media (max-width: 380px){
-	.eventTitle{
+@media (max-width: 380px) {
+	.eventTitle {
 		height: 120%;
 		width: 130%;
 	}
-	.eventBody{
+	.eventBody {
 		padding: 0 0;
 	}
-	.eventBox{
-		margin-left: -.5%;
+	.eventBox {
+		margin-left: -0.5%;
 	}
 }

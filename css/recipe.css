@@ -63,3 +63,11 @@
 .instructions {
 	text-align: left;
 }
+
+.title {
+	margin: 0;
+}
+
+.tab {
+	border-radius: 10px 10px 0 0;
+}
