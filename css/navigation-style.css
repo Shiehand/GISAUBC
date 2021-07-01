@@ -22,6 +22,10 @@ FCEEE6 - Pink
 	padding-bottom: 0 !important;
 }
 
+.dropdown-item {
+	text-align: center;
+}
+
 #gisauBrand {
 	font-family: BLANCH_CONDENSED, serif;
 	font-size: 50px;
@@ -30,7 +34,6 @@ FCEEE6 - Pink
 #gisauTabs li a {
 	font-family: DIN, monospace;
 	font-size: 16px;
-	margin-top: 5px;
 }
 
 #nav-placeholder {
