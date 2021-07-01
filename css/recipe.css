@@ -8,6 +8,16 @@
 	src: url(font/Montserrat-Regular.ttf);
 }
 
+/* jost-regular - latin */
+@font-face {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('font/jost-v6-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+			url('font/jost-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* Style the tab */
 .tab {
 	overflow: hidden;
@@ -99,13 +109,9 @@ ol {
 	list-style: decimal;
 }
 
-html {
-	font-family: 'Montserrat';
-	font-size: 20px;
-}
-
 body {
-	font-family: 'Montserrat-Regular';
+	font-size: 20px;
+	font-family: 'Jost';
 }
 
 .title {
