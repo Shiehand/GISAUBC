@@ -1,81 +1,81 @@
 /* Style the tab */
 .tab {
-	overflow: hidden;
-	border: 1px solid #ccc;
-	background-color: #f1f1f1;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-	background-color: inherit;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 16px;
-	transition: 0.3s;
-	font-size: 17px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-	background-color: #ddd;
+  background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-	background-color: #ccc;
+  background-color: #ccc;
 }
 
 /* Style the tab content */
 .tabcontent {
-	display: none;
-	padding: 6px 12px;
-	border: 1px solid #ccc;
-	border-top: none;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 .checked {
-	color: orange;
+  color: orange;
 }
 
 .checked.fa-pepper-hot {
-	color: red;
+  color: red;
 }
 
 .ingredient-container {
-	text-align: left;
-	max-width: 700px;
-	margin: 0 auto;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .food-image {
-	margin: 2vh 0 2vh 0;
-	max-width: 100%;
-	height: auto;
+  margin: 2vh 0 2vh 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .food-image-container {
-	margin: 2rem auto 2rem auto;
-	max-width: 700px;
+  margin: 2rem auto 2rem auto;
+  max-width: 700px;
 }
 
-.instructions {
-	text-align: left;
+.instructions-container {
+  text-align: left;
 }
 
 .title {
-	margin: 0;
+  margin: 0;
 }
 
 .tab {
-	border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 h3 {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 ol {
-	list-style: decimal;
+  list-style: decimal;
 }
