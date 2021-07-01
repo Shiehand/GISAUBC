@@ -22,7 +22,7 @@
 .tab {
 	overflow: hidden;
 	border: 1px solid #ccc;
-	background-color: #f1f1f1;
+	background-color: #faedcd;
 }
 
 /* Style the buttons inside the tab */
@@ -44,7 +44,7 @@
 
 /* Create an active/current tablink class */
 .tab button.active {
-	background-color: #ccc;
+	background-color: #a9b4f2;
 }
 
 /* Style the tab content */
@@ -125,6 +125,11 @@ ol > li {
 body {
 	font-size: 20px;
 	font-family: 'Jost';
+	color: #283385;
+}
+
+.list-group-item {
+	color: #283385;
 }
 
 .title {
