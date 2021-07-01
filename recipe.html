@@ -1,422 +1,622 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta
-      charset="UTF-8"
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Gado-Gado Indonesian Student Association UBC</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <!--BOOTSTRAP-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="media/favicon.png" />
-    <!--CAROUSEL-->
-    <link rel="stylesheet" href="css/flickity.css" />
-    <script src="css/flickity.pkgd.js"></script>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="css/googleanalytics.js"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/navigation-style.css" />
-    <link rel="stylesheet" href="css/home.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/body.css" />
-    <link rel="stylesheet" href="css/event.css" />
-    <link rel="stylesheet" href="css/joinus.css" />
-    <link rel="stylesheet" href="css/recipe.css" />
-    <!-- JS -->
-    <script type="text/javascript" src="css/navbar.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/e3e202619d.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+	<head>
+		<meta
+			charset="UTF-8"
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Gado-Gado Indonesian Student Association UBC</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<!--BOOTSTRAP-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="shortcut icon" href="media/favicon.png" />
+		<!--CAROUSEL-->
+		<link rel="stylesheet" href="css/flickity.css" />
+		<script src="css/flickity.pkgd.js"></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="css/googleanalytics.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/navigation-style.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/body.css" />
+		<link rel="stylesheet" href="css/event.css" />
+		<link rel="stylesheet" href="css/joinus.css" />
+		<link rel="stylesheet" href="css/recipe.css" />
+		<!-- JS -->
+		<script type="text/javascript" src="css/navbar.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/e3e202619d.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
 
-  <body>
-    <div id="nav-placeholder"></div>
-    <!-- navbar -->
-    <!-- copy everything above this to create new page  -->
-    <h1 class="title">June Recipe</h1>
-    <div class="tab">
-      <button
-        class="defaultOpen tablinks main-tab"
-        onclick="openPage(event, 'tahu', 'main-tab')"
-      >
-        Tahu Goreng Perkedel
-      </button>
-      <button
-        class="tablinks main-tab"
-        onclick="openPage(event, 'rice', 'main-tab')"
-      >
-        Indonesian Fried Rice
-      </button>
-      <button
-        class="tablinks main-tab"
-        onclick="openPage(event, 'pisang', 'main-tab')"
-      >
-        Pisang Goreng
-      </button>
-    </div>
+	<body>
+		<div id="nav-placeholder"></div>
+		<!-- navbar -->
+		<!-- copy everything above this to create new page  -->
+		<h1 class="title">June Recipe</h1>
+		<div class="tab">
+			<button
+				class="defaultOpen tablinks main-tab"
+				onclick="openPage(event, 'tahu', 'main-tab')"
+			>
+				Tahu Goreng Perkedel
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'rice', 'main-tab')"
+			>
+				Indonesian Fried Rice
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'pisang', 'main-tab')"
+			>
+				Pisang Goreng
+			</button>
+		</div>
 
-    <div id="tahu" class="tabcontent main-tab">
-      <h3>Tahu Goreng Perkedel</h3>
-      <div>
-        Difficulty:
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-      </div>
-      <div>
-        Spiciness:
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-      </div>
-      <div class="food-image-container">
-        <img class="food-image" src="media/recipe-image/tahu.jpeg" />
-      </div>
-      <div class="description mb-5 mx-lg-5">
-        When in need of a savory snack or a side dish for your meal time, Tahu
-        Goreng Perkedel can be your go to menu. It’s easy to make using the
-        staples in your kitchen! The crispy outside from eggs and flour with the
-        soft inside from the tofu will make you want more!
-      </div>
+		<div id="tahu" class="tabcontent main-tab">
+			<h1>Tahu Goreng Perkedel</h1>
+			<div>Preparation time: 15 minutes</div>
+			<div>Cooking time: 15 minutes</div>
+			<div>Servings: 2-3 servings</div>
+			<div class="rating">
+				<span style="color: black">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: black">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img class="food-image" src="media/recipe-image/tahu.jpeg" />
+			</div>
+			<div class="description mb-5 mx-lg-5">
+				When in need of a savory snack or a side dish for your meal
+				time, Tahu Goreng Perkedel can be your go-to meal. It’s easy to
+				make using the staples in your kitchen. The crispy coating from
+				the eggs and flour with the soft tofu filling inside will make
+				you want more!
+			</div>
 
-      <div class="ingredient-container">
-        <div class="tab">
-          <button
-            class="defaultOpen tablinks ingredient-tab"
-            onclick="openPage(event, 'ingredient-tahu', 'ingredient-tab')"
-          >
-            Ingredients
-          </button>
-          <button
-            class="tablinks ingredient-tab"
-            onclick="openPage(event, 'bahan-tahu', 'ingredient-tab')"
-          >
-            Bahan
-          </button>
-        </div>
-        <div id="ingredient-tahu" class="tabcontent ingredient-tab">
-          <ul class="list-group">
-            <li class="list-group-item">3 soft tofu</li>
-            <li class="list-group-item">3 garlic cloves, minced</li>
-            <li class="list-group-item">3 shallots, minced</li>
-            <li class="list-group-item">2 stems of scallions</li>
-            <li class="list-group-item">2 eggs</li>
-            <li class="list-group-item">mushroom powder, to taste</li>
-            <li class="list-group-item">salt, to taste</li>
-            <li class="list-group-item">pepper, to taste</li>
-            <li class="list-group-item">vegetable oil</li>
-          </ul>
-        </div>
-        <div id="bahan-tahu" class="tabcontent ingredient-tab">
-          <ul class="list-group">
-            <li class="list-group-item">3 tahu</li>
-            <li class="list-group-item">3 bawang putih, dicincang</li>
-            <li class="list-group-item">3 bawang merah, dicincang</li>
-            <li class="list-group-item">2 daun bawang</li>
-            <li class="list-group-item">2 telur</li>
-            <li class="list-group-item">2 sdm tepung</li>
-            <li class="list-group-item">bumbu jamur</li>
-            <li class="list-group-item">garam</li>
-            <li class="list-group-item">lada</li>
-            <li class="list-group-item">minyak goreng</li>
-          </ul>
-        </div>
-      </div>
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-tahu', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-tahu', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-tahu" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">400 g soft tofu</li>
+						<li class="list-group-item">3 garlic cloves</li>
+						<li class="list-group-item">3 shallots</li>
+						<li class="list-group-item">2 stems of scallions</li>
+						<li class="list-group-item">2 large eggs</li>
+						<li class="list-group-item">2 Tbsp flour</li>
+						<li class="list-group-item">1 tsp mushroom powder</li>
+						<li class="list-group-item">1 tsp salt</li>
+						<li class="list-group-item">1 tsp white pepper</li>
+						<li class="list-group-item">Vegetable oil</li>
+					</ul>
+				</div>
 
-      <div class="instructions-container my-3 mx-lg-5">
-        <div class="tab">
-          <button
-            class="defaultOpen tablinks instructions-tab"
-            onclick="openPage(event, 'instructions-tahu', 'instructions-tab')"
-          >
-            Instructions
-          </button>
-          <button
-            class="tablinks instructions-tab"
-            onclick="openPage(event, 'cara-tahu', 'instructions-tab')"
-          >
-            Cara membuat:
-          </button>
-        </div>
-        <div id="instructions-tahu" class="tabcontent instructions-tab">
-          <ol class="mb-3 mx-lg-3">
-            <li>Using a spoon, break down the tofu into smaller pieces.</li>
-            <li>Heat up the oil.</li>
-            <li>
-              Mince all the garlic, shallots and scallions and combine them with
-              the tofu into the bowl.
-            </li>
-            <li>
-              Add 2 tbsp of flour, 2 eggs, salt, pepper and mushroom powder to
-              taste in the bowl, mix.
-            </li>
-            <li>Using a spoon, scoop out the mixture and deep fry them.</li>
-            <li>
-              Flip them when they turn brown and remove tofu and drain on a wire
-              rack to remove excess oil.
-            </li>
-            <li>Serve with hot rice and sweet soy sauce!</li>
-          </ol>
-        </div>
-        <div id="cara-tahu" class="tabcontent instructions-tab">
-          <ol class="mb-3 mx-lg-3">
-            <li>Using a spoon, break down the tofu into smaller pieces.</li>
-            <li>Heat up the oil.</li>
-            <li>
-              Mince all the garlic, shallots and scallions and combine them with
-              the tofu into the bowl.
-            </li>
-            <li>
-              Add 2 tbsp of flour, 2 eggs, salt, pepper and mushroom powder to
-              taste in the bowl, mix.
-            </li>
-            <li>Using a spoon, scoop out the mixture and deep fry them.</li>
-            <li>
-              Flip them when they turn brown and remove tofu and drain on a wire
-              rack to remove excess oil.
-            </li>
-            <li>Serve with hot rice and sweet soy sauce!</li>
-          </ol>
-        </div>
-      </div>
-    </div>
+				<div id="bahan-tahu" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">400 gr tahu</li>
+						<li class="list-group-item">3 bawang putih</li>
+						<li class="list-group-item">3 bawang merah</li>
+						<li class="list-group-item">2 daun bawang</li>
+						<li class="list-group-item">2 telur</li>
+						<li class="list-group-item">2 sdm tepung terigu</li>
+						<li class="list-group-item">1 sdt bumbu jamur</li>
+						<li class="list-group-item">1 sdt garam</li>
+						<li class="list-group-item">1 sdt lada putih</li>
+						<li class="list-group-item">Minyak goreng</li>
+					</ul>
+				</div>
+			</div>
 
-    <div id="rice" class="tabcontent main-tab">
-      <h3>Indonesian Fried Rice</h3>
-      <div>
-        Difficulty:
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-      </div>
-      <div>
-        Spiciness:
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-      </div>
-      <div class="food-image-container">
-        <img class="food-image" src="media/recipe-image/Nasi Goreng.jpg" />
-      </div>
-      <div class="description mb-5 mx-lg-5">
-        The best food for when you are home sick! There are various ways on how
-        to make Nasi Goreng, I know that every family has their own twist and
-        recipes for this simple yet delicious dish! Here are the ingredients and
-        the recipe for our take on Nasi Goreng.
-      </div>
+			<div class="instructions-container my-3 mx-lg-5">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-tahu', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-tahu', 'instructions-tab')"
+					>
+						Cara membuat:
+					</button>
+				</div>
+				<div id="instructions-tahu" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Wash all the produce.</li>
+						<li>
+							Using a spoon, break down the tofu into smaller
+							pieces.
+						</li>
+						<li>
+							Heat enough oil in a pot for deep frying, make sure
+							there is enough oil to deep fry the tofu.
+						</li>
+						<li>
+							Mince all the garlic, shallots and scallions and
+							combine them with the tofu into the bowl.
+						</li>
+						<li>
+							Add 2 tbsp of flour, 2 eggs, salt, pepper, and
+							mushroom powder to taste in the tofu bowl, mix well.
+						</li>
+						<li>
+							Scoop out a spoonful of the tofu mixture and deep
+							fry them.
+						</li>
+						<li>
+							Flip them when they turn brown (5 minutes on the
+							first side and 3-4 minutes on the other side),
+							remove tofu and drain on a wire rack to remove
+							excess oil.
+						</li>
+						<li>Serve with warm rice and sweet soy sauce!</li>
+					</ol>
+				</div>
+				<div id="cara-tahu" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Cuci semua bahan masak.</li>
+						<li>
+							Di mangkok terpisah, hancurkan tahu hingga kecil
+							menggunakan sendok.
+						</li>
+						<li>
+							Tuangkan minyak goreng (cukup untuk merendam tahu)
+							ke dalam panci dan panaskan.
+						</li>
+						<li>
+							Cincang bawang putih, bawang merah dan daun bawang,
+							campurkan ke dalam mangkuk tahu.
+						</li>
+						<li>
+							Tambahkan 2 sdm tepung terigu, 2 telur, garam, lada
+							putih, kaldu jamur ke dalam mangkuk tahu. Aduk
+							hingga rata.
+						</li>
+						<li>
+							Untuk mendapatkan ukuran yang konsisten, gunakan
+							sendok makan untuk memasukan adonan tahu kedalam
+							minyak panas.
+						</li>
+						<li>
+							Goreng selama 5 menit pada satu sisi dan 3-4 menit
+							pada sisi yang lain. Goreng hingga tahu berwarna
+							kecoklatan. Angkat tahu and tiriskan minyak.
+						</li>
+						<li>Hidangkan dengan nasi putih dan kecap manis!</li>
+					</ol>
+				</div>
+			</div>
+		</div>
 
-      <div class="ingredient-container">
-        <div class="tab">
-          <button
-            class="defaultOpen tablinks ingredient-tab"
-            onclick="openPage(event, 'ingredient-rice', 'ingredient-tab')"
-          >
-            Ingredients
-          </button>
-          <button
-            class="tablinks ingredient-tab"
-            onclick="openPage(event, 'bahan-rice', 'ingredient-tab')"
-          >
-            Bahan
-          </button>
-        </div>
-        <div id="ingredient-rice" class="tabcontent ingredient-tab">
-          <ul class="list-group">
-            <li class="list-group-item">400 grams of chilled rice</li>
-            <li class="list-group-item">3 Tbsp vegetable oil</li>
-            <li class="list-group-item">150 grams fried chicken</li>
-            <li class="list-group-item">3 Tbsp sweet soy sauce</li>
-            <li class="list-group-item">2 eggs</li>
-            <li class="list-group-item">1 Tbsp chicken stock powder</li>
-            <li class="list-group-item">5 shallots</li>
-            <li class="list-group-item">3 cloves of garlic</li>
-            <li class="list-group-item">Salt to taste</li>
-            <li class="list-group-item">Pepper to taste</li>
-          </ul>
-        </div>
-        <div id="bahan-rice" class="tabcontent ingredient-tab">
-          <ul class="list-group">
-            <li class="list-group-item">400 gram nasi (dingin)</li>
-            <li class="list-group-item">3 sdm minyak sayur</li>
-            <li class="list-group-item">150 gram ayam</li>
-            <li class="list-group-item">3 Tbsp kecap manis</li>
-            <li class="list-group-item">2 telur</li>
-            <li class="list-group-item">1 sdm bumbu ayam</li>
-            <li class="list-group-item">5 siung bawang merah</li>
-            <li class="list-group-item">3 siung bawang putih</li>
-            <li class="list-group-item">Garam</li>
-            <li class="list-group-item">Lada</li>
-          </ul>
-        </div>
-      </div>
-      <div class="instructions my-3 mx-lg-5">
-        <h3>Instructions</h3>
-        <ol class="mb-3 mx-lg-5">
-          <li>
-            Grind shallots, garlic, chilli, shrimp paste and salt r to a food
-            processor until smooth using a food processor.
-          </li>
-          <li>
-            Add oil to a pan and heat it up on high heat. Once hot, add the
-            blended ingredients and stir fry until fragrant.
-          </li>
-          <li>Add beaten eggs and mix everything.</li>
-          <li>
-            Add rice, shredded fried chicken, sweet soy sauce, chicken stock
-            powder and white pepper. Mix everything
-          </li>
-          <li>Optional: Cook up and serve with one sunny side up egg</li>
-        </ol>
-      </div>
-    </div>
+		<div id="rice" class="tabcontent main-tab">
+			<h1>Indonesian Fried Rice</h1>
+			<div>Preparation time: 5 minutes</div>
+			<div>Cooking time: 15 minutes</div>
+			<div>Servings: 1 serving</div>
+			<div class="rating">
+				<span style="color: black">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: black">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img
+					class="food-image"
+					src="media/recipe-image/Nasi Goreng.jpg"
+				/>
+			</div>
+			<div class="description mb-5 mx-lg-5">
+				The best food when you are home sick! There are various ways on
+				how to make Nasi Goreng, I know that every family has their own
+				twist for this simple yet delicious dish. Here is our take on
+				Nasi Goreng.
+			</div>
 
-    <div id="pisang" class="tabcontent main-tab">
-      <h3>Pisang Goreng</h3>
-      <div>
-        Difficulty:
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-      </div>
-      <div>
-        Spiciness:
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-        <span class="fa fa-pepper-hot"></span>
-      </div>
-      <div class="food-image-container">
-        <img class="food-image" src="media/recipe-image/Pisang Goreng.jpeg" />
-      </div>
-      <div class="description mb-5 mx-lg-5">
-        Pisang goreng, sweet and crispy when it is done right! Getting the right
-        bananas for this dish in Vancouver might not be easy, but when craving
-        for some, we try to make it work! The perfect companion for your me
-        time.
-      </div>
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-rice', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-rice', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-rice" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">400 g rice (chilled)</li>
+						<li class="list-group-item">3 Tbsp vegetable oil</li>
+						<li class="list-group-item">
+							150 g fried chicken (shredded)
+						</li>
+						<li class="list-group-item">3 Tbsp sweet soy sauce</li>
+						<li class="list-group-item">2 large eggs</li>
+						<li class="list-group-item">
+							1 Tbsp chicken stock powder
+						</li>
+						<li class="list-group-item">5 shallots</li>
+						<li class="list-group-item">3 garlic cloves</li>
+						<li class="list-group-item">1 tsp salt</li>
+						<li class="list-group-item">1 tsp white pepper</li>
+						<li class="list-group-item">
+							(optional) 200 g of carrots
+						</li>
+						<li class="list-group-item">
+							(optional) 200 g of choy sum
+						</li>
+					</ul>
+				</div>
+				<div id="bahan-rice" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">400 g nasi (dingin)</li>
+						<li class="list-group-item">3 sdm minyak sayur</li>
+						<li class="list-group-item">150 g ayam</li>
+						<li class="list-group-item">3 sdm kecap manis</li>
+						<li class="list-group-item">2 telur</li>
+						<li class="list-group-item">1 sdm bubuk kaldu ayam</li>
+						<li class="list-group-item">5 siung bawang merah</li>
+						<li class="list-group-item">3 siung bawang putih</li>
+						<li class="list-group-item">1 sdt garam</li>
+						<li class="list-group-item">1 sdt lada putih</li>
+						<li class="list-group-item">
+							(optional) 200 g of wortel
+						</li>
+						<li class="list-group-item">
+							(optional) 200 g of caisim
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="instructions-container my-3 mx-lg-5">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-rice', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-rice', 'instructions-tab')"
+					>
+						Cara membuat:
+					</button>
+				</div>
 
-      <div class="ingredient-container">
-        <div class="tab">
-          <button
-            class="defaultOpen tablinks ingredient-tab"
-            onclick="openPage(event, 'ingredient-pisang', 'ingredient-tab')"
-          >
-            Ingredients
-          </button>
-          <button
-            class="tablinks ingredient-tab"
-            onclick="openPage(event, 'bahan-pisang', 'ingredient-tab')"
-          >
-            Bahan
-          </button>
-        </div>
-        <div id="ingredient-pisang" class="tabcontent ingredient-tab">
-          <ul class="list-group">
-            <li class="list-group-item">8 ripe saba bananas or raja bananas</li>
-            <li class="list-group-item">100 grams rice flour</li>
-            <li class="list-group-item">1.5 tsp baking soda</li>
-            <li class="list-group-item">1.5 tsp baking powder</li>
-            <li class="list-group-item">2 tsp sugar</li>
-            <li class="list-group-item">0.5 tsp salt</li>
-            <li class="list-group-item">Water</li>
-            <li class="list-group-item">Oil</li>
-          </ul>
-        </div>
-        <div id="bahan-pisang" class="tabcontent ingredient-tab">
-          <ul class="list-group">
-            <li class="list-group-item">8 pisang kepok atau pisang raja</li>
-            <li class="list-group-item">100 gram tepung beras</li>
-            <li class="list-group-item">1.5 sdt soda kue</li>
-            <li class="list-group-item">1.5 sdt bubuk pengembang</li>
-            <li class="list-group-item">2 sdt gula</li>
-            <li class="list-group-item">0.5 sdt garam</li>
-            <li class="list-group-item">Air</li>
-            <li class="list-group-item">Minyak goreng</li>
-          </ul>
-        </div>
-      </div>
-      <div class="instructions my-3 mx-lg-5">
-        <h3>Instructions</h3>
-        <ol class="mb-3 mx-lg-5">
-          <li>
-            Peel all the bananas. Optionally, make three slits along its length
-            (but two will also be enough), but keep the bottom 1 inch intact, so
-            the bananas can be opened up like a fan.
-          </li>
-          <li>
-            In a separate bowl add in all the rice flour, baking soda, baking
-            powder, sugar and mix everything
-          </li>
-          <li>
-            Once the oil is hot (you will see bubbles), scoop 1 tablespoon of
-            hot oil and add to the batter, whisk again.
-          </li>
-          <li>
-            Coat the bananas with batter and deep-fry until golden brown and
-            crispy, about 3-4 minutes.
-          </li>
-          <li>
-            At around 2 minutes into frying, drop batter in drips into the hot
-            oil to make plenty of batter droplets, then quickly coat the bananas
-            with the resulting crispy bits. This creates an additional layer to
-            ensure your resulting pisang goreng stays crispy for longer.
-          </li>
-          <li>
-            Remove bananas and drain on a wire rack to remove excess oil. Pisang
-            goreng is best when served immediately.
-          </li>
-        </ol>
-      </div>
-    </div>
-    <script>
-      function openPage(evt, tabName, tabGroup) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent " + tabGroup);
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks " + tabGroup);
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        const content = document.getElementById(tabName);
-        content.style.display = "block";
-        evt.currentTarget.className += " active";
-        const children = content.getElementsByClassName("defaultOpen");
-        if (children.length) {
-          for (const child of children) {
-            child.click();
-          }
-        }
-      }
-      const arr = document.getElementsByClassName("defaultOpen")[0].click();
-    </script>
-  </body>
-  <footer id="footer"></footer>
+				<div id="instructions-rice" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Wash all the produce.</li>
+						<li>
+							Cut the carrots into cubes and choy sum around 3-4
+							cm in length.
+						</li>
+						<li>Mince all the shallots and garlic.</li>
+						<li>
+							Heat oil in a large wok or skillet over high heat.
+							Once hot, add the minced garlic and shallots. Stir
+							fry until fragrant.
+						</li>
+						<li>
+							Beat the eggs and add them into the skillet. Cook
+							for 4 minutes.
+						</li>
+						<li>
+							Add in the vegetables and stir fry until the choy
+							sum shrinks in size.
+						</li>
+						<li>
+							Add rice, shredded fried chicken, sweet soy sauce,
+							and chicken stock powder. Cook for 7 minutes,
+							stirring constantly until the rice is evenly cooked.
+							Season with salt and pepper.
+						</li>
+						<li>
+							(Optional) Cook up and serve with one sunny side up
+							egg.
+						</li>
+					</ol>
+				</div>
+				<div id="cara-rice" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Cuci semua bahan masak.</li>
+						<li>
+							Potong wortel menjadi dadu dan caisim sekitar 3-4cm.
+						</li>
+						<li>Cincang bawang putih dan bawang merah.</li>
+						<li>
+							Panaskan minyak di panci. Ketika sudah panas
+							tambahkan bawang putih dan bawang merah. Tumis
+							hingga wangi.
+						</li>
+						<li>
+							Kocak telur menggunakan mangkok terpisah dan masukan
+							kedalam panci. Masak selama 4 menit.
+						</li>
+						<li>
+							Tambahkan caisim dan wortel dan tumis hingga ukuran
+							caisim mengecil.
+						</li>
+						<li>
+							Tambahkan nasi, ayam, kecap manis dan bubuk kaldu
+							ayam. Aduk dan masak selama 7 menit. Tambahkan garam
+							dan lada putih.
+						</li>
+						<li>(Optional) Hidangkan dengan telur mata sapi.</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div id="pisang" class="tabcontent main-tab">
+			<h1>Pisang Goreng</h1>
+			<div>Preparation time: 15 minutes</div>
+			<div>Cooking time: 20 minutes</div>
+			<div>Servings: 8 pieces</div>
+			<div class="rating">
+				<span style="color: black">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: black">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img
+					class="food-image"
+					src="media/recipe-image/Pisang Goreng.jpeg"
+				/>
+			</div>
+			<div class="description mb-5 mx-lg-5">
+				Pisang goreng is sweet and crispy when done right! Getting the
+				right bananas for this dish in Vancouver may not be easy, but
+				when your cravings become too overpowering, we try to make it
+				work! The perfect companion for your me-time.
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-pisang', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-pisang', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-pisang" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">
+							8 ripe saba bananas or raja bananas
+						</li>
+						<li class="list-group-item">100 g rice flour</li>
+						<li class="list-group-item">1.5 tsp baking soda</li>
+						<li class="list-group-item">1.5 tsp baking powder</li>
+						<li class="list-group-item">2 tsp sugar</li>
+						<li class="list-group-item">0.5 tsp salt</li>
+						<li class="list-group-item">200 ml water</li>
+						<li class="list-group-item">Vegetable oil</li>
+					</ul>
+				</div>
+				<div id="bahan-pisang" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">
+							8 pisang kepok atau pisang raja
+						</li>
+						<li class="list-group-item">100 g tepung beras</li>
+						<li class="list-group-item">1.5 sdt bubuk soda kue</li>
+						<li class="list-group-item">
+							1.5 sdt bubuk pengembang
+						</li>
+						<li class="list-group-item">2 sdt gula</li>
+						<li class="list-group-item">0.5 sdt garam</li>
+						<li class="list-group-item">200 ml air</li>
+						<li class="list-group-item">Minyak goreng</li>
+					</ul>
+				</div>
+			</div>
+			<div class="instructions-container my-3 mx-lg-5">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-pisang', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-pisang', 'instructions-tab')"
+					>
+						Cara membuat:
+					</button>
+				</div>
+
+				<div
+					id="instructions-pisang"
+					class="tabcontent instructions-tab"
+				>
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Heat enough oil in a pot for deep frying, make sure
+							there is enough oil to deep fry the bananas.
+						</li>
+						<li>
+							Peel the bananas.
+							<br />
+							(optional) Make 2-3 slits along its length, keeping
+							the bottom 1 inch intact so the bananas can be
+							opened up like a fan.
+						</li>
+						<li>
+							In a separate bowl, add the water, rice flour,
+							baking soda, baking powder, salt, and sugar to make
+							the batter. Mix well.
+						</li>
+						<li>
+							Once the oil is hot (you will see bubbles), scoop 1
+							tbsp of hot oil and add to the batter from step 3,
+							whisk again.
+						</li>
+						<li>
+							Coat the bananas with batter and deep-fry until
+							golden brown and crispy, about 4-6 minutes.
+						</li>
+						<li>
+							At around 2 minutes into frying, drop some batter by
+							drops into the hot oil to make batter droplets.
+						</li>
+						<li>
+							Then, quickly coat the bananas with the resulting
+							crispy bits. This creates an additional layer to
+							ensure your pisang goreng stays crispy longer.
+						</li>
+						<li>
+							Remove bananas and drain on a wire rack to remove
+							excess oil. Pisang goreng is best served warm.
+						</li>
+					</ol>
+				</div>
+				<div id="cara-pisang" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Tuangkan minyak goreng (cukup untuk merendam pisang)
+							ke dalam panci dan panaskan
+						</li>
+						<li>
+							Kupas pisang.
+							<br />
+							(optional)Potong 2-3 kali pada pisang memanjang,
+							meninggalkan 1 inci dibagian bawah agar ketika
+							dimasak akan terbuka seperti kipas.
+						</li>
+						<li>
+							Di mangkuk terpisah, tambahkan air, tepung beras,
+							soda kue, bubuk pengembang, garam, dan gula. Aduk
+							hingga rata.
+						</li>
+						<li>
+							Ketika minyak sudah panas, tambahkan 1 sdm minyak
+							panas kedalam mangkuk adonan. Aduk hingga rata.
+						</li>
+						<li>
+							Celupkan pisang kedalam adonan dan goreng selama 4-6
+							menit hingga adonan menjadi coklat dan garing.
+						</li>
+						<li>
+							Sekitar 2 menit setelah memasukan pisang, teteskan
+							adonan kedalam minyak untuk memberikan lapisan
+							tambahan pada pisang goreng.
+						</li>
+						<li>
+							Angkat dan tiriskan pisang goreng. Hidangkan ketika
+							pisang goreng masih hangat!
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openPage(evt, tabName, tabGroup) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName(
+					'tabcontent ' + tabGroup
+				);
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = 'none';
+				}
+				tablinks = document.getElementsByClassName(
+					'tablinks ' + tabGroup
+				);
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(
+						' active',
+						''
+					);
+				}
+				const content = document.getElementById(tabName);
+				content.style.display = 'block';
+				evt.currentTarget.className += ' active';
+				const children = content.getElementsByClassName('defaultOpen');
+				if (children.length) {
+					for (const child of children) {
+						child.click();
+					}
+				}
+			}
+			const arr = document
+				.getElementsByClassName('defaultOpen')[0]
+				.click();
+		</script>
+	</body>
+	<footer id="footer"></footer>
 </html>
