@@ -82,6 +82,14 @@
 
 .instructions-container {
 	text-align: left;
+	max-width: 900px;
+	margin: 3rem auto 2rem auto;
+}
+
+.description {
+	text-align: left;
+	max-width: 900px;
+	margin: 3rem auto 2rem auto;
 }
 
 .title {
