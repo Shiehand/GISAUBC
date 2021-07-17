@@ -302,6 +302,12 @@
 	height: 15%;
 }
 
+.testimonial .bottom .card .name h6 {
+	font-family: 'Trial2';
+	font-size: 35px;
+	margin-bottom: 0;
+}
+
 .testimonial .bottom .card .name p {
 	padding: 0;
 }
@@ -494,14 +500,15 @@
 	background: #faedcd;
 	margin: 20px 100px;
 	padding: 15px;
-	box-shadow: 10px 10px 20px 0.5px #000000;
+	box-shadow: 10px 10px 20px 0.5px #a9b4f2;
+	box-shadow: 10px 10px 20px 0.5px #283385;
 }
 
 .blog .contain_2 .quotes .card:hover {
     /** box-shadow: 5px 5px 10px 5px #ffaa81; **/
     box-shadow: 5px 5px 10px 5px #8db4b9;
     box-shadow: 5px 5px 10px 5px #ef4a46;
-	box-shadow: 5px 5px 10px 5px #fac456;
+	box-shadow: 5px 5px 10px 5px #a9b4f2;
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
