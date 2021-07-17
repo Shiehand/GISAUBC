@@ -31,7 +31,7 @@
 		<link rel="stylesheet" href="css/body.css" />
 		<link rel="stylesheet" href="css/event.css" />
 		<link rel="stylesheet" href="css/joinus.css" />
-		<link rel="stylesheet" href="css/blog_UBUD.css" />
+		<link rel="stylesheet" href="css/blog_ubud.css" />
 		<!-- JS -->
 		<script type="text/javascript" src="css/navbar.js"></script>
 		<script
@@ -210,7 +210,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name janice">
                                                         <div class="col-md-12">
                                                             <h6>Janice Suhardja</h6>
                                                             <p>2nd Year</p>
@@ -238,7 +238,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name simran">
                                                         <div class="col-md-12">
                                                             <h6>Simran Mahita</h6>
                                                             <p>2nd Year</p>
@@ -266,7 +266,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name michael">
                                                         <div class="col-md-12">
                                                             <h6>Michael Y</h6>
                                                             <p>2nd Year</p>
@@ -275,7 +275,7 @@
                                                     </div>
                                                     <div class="row profile">
                                                         <div class="col-md-12">
-                                                            <img src="media/blog/rick.png">
+                                                            <img src="media/blog/kuroo.png">
                                                         </div>
                                                     </div>
                                                 </div>  
@@ -294,7 +294,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name ferdinand">
                                                         <div class="col-md-12">
                                                             <h6>Ferdinand Sunardja</h6>
                                                             <p>2nd Year</p>
@@ -322,7 +322,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name michelle">
                                                         <div class="col-md-12">
                                                             <h6>Michelle Sutjitro</h6>
                                                             <p>2nd Year</p>
@@ -350,7 +350,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name julian">
                                                         <div class="col-md-12">
                                                             <h6>Julian Widjaja</h6>
                                                             <p>2nd Year</p>
@@ -359,7 +359,7 @@
                                                     </div>
                                                     <div class="row profile">
                                                         <div class="col-md-12">
-                                                            <img src="media/blog/rick.png">
+                                                            <img src="media/blog/self_pic/Julian.jpg">
                                                         </div>
                                                     </div>
                                                 </div>  
@@ -378,7 +378,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="row name">
+                                                    <div class="row name russell">
                                                         <div class="col-md-12">
                                                             <h6>Russell Sumarno</h6>
                                                             <p>2nd Year</p>
@@ -750,28 +750,51 @@
 	<script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
     <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		$(document).ready(function () {
-			$('.owl-carousel').owlCarousel({
-				loop: true,
-				margin: 10,
-				nav: true,
-				autoplay: true,
-				autoplayTimeout: 5000,
-				autoplayHoverPause: true,
-				responsive: {
-					0: {
-						items: 1,
-					},
-
-					769: {
-						items: 2,
-					},
-
-					1401: {
-						items: 3,
-					},
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			loop: true,
+			margin: 10,
+			nav: true,
+			autoplay: true,
+			autoplayTimeout: 5000,
+			autoplayHoverPause: true,
+			responsive: {
+				0: {
+					items: 1,
 				},
-			});
+
+				1100: {
+					items: 2,
+				},
+
+				1451: {
+					items: 3,
+				},
+			},
+		});
+		owl.on('mousewheel', '.owl-stage', function (e) {
+			if (e.deltaY>0) {
+				owl.trigger('next.owl');
+			} else {
+				owl.trigger('prev.owl');
+			}
+			e.preventDefault();
+		});
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		});
+		$('.owl-nav > div').on('click', function () {
+			$('.owl-carousel').trigger('stop.owl.autoplay');
+
+			//or more complicated (will work for one carousel only, or else use 'each'):
+			//EDIT: this one seems to work
+			var carousel = $('.owl-carousel').data('owl.carousel');
+			carousel.settings.autoplay = false; //don't know if both are necessary
+			carousel.options.autoplay = false;
+			$('.owl-carousel').trigger('refresh.owl.carousel');
 		});
 	</script>
 
