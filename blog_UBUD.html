@@ -124,7 +124,15 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <p>
-                                        Through UBUD, short for UBC Udah Dekat, GISAU aims to inform parents and students alike of life at UBC or Vancouver in general through educational and interactive presentations, as well as social and networking activities. Due to COVID-19, this year’s UBUD will be held online on <span class="underline">July 23, from 7:00 pm - 8:35 pm (PST) or 9:00 am - 10:35 am (WIB)</span>. RSVP <a href="https://forms.gle/v761aFuY9Uc1mH4R6" target="_blank" rel="noopener noreferrer">here</a> now because spots are limited!
+                                        Through UBUD, short for UBC Udah Dekat, GISAU aims to inform parents and students about life at UBC or in Vancouver. Expect fun educational and interactive presentations, as well as social and networking activities. To avoid any confusions, UBUD was previously known as Destination Canada. But fear not! Despite the new name, UBUD still possesses Destination Canada’s high quality presenters and event rundowns (if not better) and is still targeted to help first-year and transfer students coming to UBC.
+                                    </p>
+                                </div>
+                            </div>
+
+							<div class="row">
+                                <div class="col-md-12">
+                                    <p>
+										Due to COVID-19, this year’s UBUD will be held online on <span class="underline">July 23, from 7:00 pm - 8:35 pm (PDT) or 9:00 am - 10:35 am (WIB)</span>. RSVP <a href="https://forms.gle/v761aFuY9Uc1mH4R6" target="_blank" rel="noopener noreferrer">here</a> now because spots are limited!
                                     </p>
                                 </div>
                             </div>
@@ -756,7 +764,7 @@
 			margin: 10,
 			nav: true,
 			autoplay: true,
-			autoplayTimeout: 5000,
+			autoplayTimeout: 7000,
 			autoplayHoverPause: true,
 			responsive: {
 				0: {
@@ -779,11 +787,11 @@
 			navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 		});
 		$('.owl-nav > div').on('click', function () {
-			$('.owl-carousel').trigger('stop.owl.autoplay');
+			owl.trigger('stop.owl.autoplay');
 
 			//or more complicated (will work for one carousel only, or else use 'each'):
 			//EDIT: this one seems to work
-			var carousel = $('.owl-carousel').data('owl.carousel');
+			var carousel = $('.owl-carousel').data('owl.Carousel');
 			carousel.settings.autoplay = false; //don't know if both are necessary
 			carousel.options.autoplay = false;
 			$('.owl-carousel').trigger('refresh.owl.carousel');

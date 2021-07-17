@@ -49,6 +49,7 @@
 
 .blog .contain_2 {
 	padding: 25px 100px;
+	margin-bottom: 50px;
 }
 
 @media (max-width: 787px) {
@@ -226,6 +227,10 @@
 }
 **/
 
+.blog .contain_2 .testimonial .top h2 {
+	color: #283385;
+}
+
 .testimonial .top hr {
 	border-top: 5px solid #5c0808;
 	width: 75px;
@@ -286,6 +291,7 @@
 
 .testimonial .bottom .card .testi i {
 	color: #b23636;
+	color: #283385;
 	margin: 0 5px;
 }
 
@@ -330,6 +336,7 @@
 
 .testimonial .owl-dots .active span {
 	background: url(../media/background/redbg.jpg);
+	background: #283385;
 }
 
 .testimonial .bottom .owl-carousel .owl-nav .owl-prev, .owl-next {
@@ -357,6 +364,7 @@
 .testimonial .bottom .owl-carousel .owl-nav span {
 	font-size: 50px;
 	color: #b23636;
+	color: #283385;
 }
 
 .owl-carousel .owl-stage {
@@ -483,7 +491,7 @@
 
 .blog .contain_2 .quotes .card {
     background: #ffebe4;
-	/** background: #faedcd; **/
+	background: #faedcd;
 	margin: 20px 100px;
 	padding: 15px;
 	box-shadow: 10px 10px 20px 0.5px #000000;
@@ -528,14 +536,26 @@
     margin-top: 30px;
 }
 
+.blog .contain_2 .engage h2 {
+	color: #283385;
+}
+
 /** FACILITATES QUERIES **/
 .blog .contain_2 .queries {
     margin-top: 30px;
 }
 
+.blog .contain_2 .queries h2 {
+	color: #283385;
+}
+
 /** INSIGHT **/
 .blog .contain_2 .insight {
     margin-top: 30px;
+}
+
+.blog .contain_2 .insight h2 {
+	color: #283385;
 }
 
 /** FUN FACT **/
