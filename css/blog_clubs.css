@@ -378,8 +378,8 @@ h6 {
 
 /** IMAGE 3 **/
 .contain_2 .article_2 .image_3 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px; */
+  margin-bottom: 80px;
 }
 
 .contain_2 .article_2 .image_3 img {
@@ -421,8 +421,8 @@ h6 {
 
 /** IMAGE 4 **/
 .contain_2 .article_2 .image_4 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px; */
+  margin-bottom: 80px;
 }
 
 .contain_2 .article_2 .image_4 img {
@@ -441,4 +441,9 @@ h6 {
 .contain_2 .article_2 .closing span {
   font-family: "Trial2";
   font-size: 30px;
+}
+
+img {
+  width: 600px !important;
+  object-fit: cover;
 }
