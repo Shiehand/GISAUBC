@@ -120,11 +120,11 @@ h6 {
 }
 
 .pelangi .header .intro .top {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .pelangi .header .intro .bottom {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 @media (max-width: 787px) {
@@ -340,7 +340,17 @@ h6 {
 /* 5 */
 @media screen and (max-width: 800px) {
   .slider .myslide {
-    height: 500px;
+    /* height: 500px; */
+    /* height: 80vh; */
+  }
+
+  .slider .prev,
+  .slider .next {
+    top: 115%;
+  }
+
+  .slider .dotsbox {
+    top: 110%;
   }
 }
 /* /5 */
