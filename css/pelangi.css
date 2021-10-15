@@ -8,26 +8,33 @@
   src: url(font/Montserrat-Regular.ttf);
 }
 
-.blog {
-  padding: 50px 20px;
-  text-align: left;
-  background: #feffef;
+body {
+  background: url("../media/pelangi/rainbow.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.blog .container {
+.pelangi {
+  padding: 50px 20px;
+  text-align: left;
+  /* background: #feffef; */
+}
+
+.pelangi .container {
   max-width: none;
 }
 
-.blog h1 {
+.pelangi h1 {
   font-family: "Trial2", "League Spartan" !important;
 }
 
-.blog h2 {
+.pelangi h2 {
   /* font-size: 35px; */
   font-family: "Trial2", "League Spartan" !important;
 }
 
-.blog h3,
+.pelangi h3,
 h4,
 h5,
 h6 {
@@ -35,78 +42,65 @@ h6 {
   font-family: "Trial2", "League Spartan" !important;
 }
 
-.blog p {
+.pelangi p {
   font-size: 16px;
   font-family: "Montserrat", "Libre Baskerville";
   text-align: justify;
 }
 
-.blog a {
+.pelangi a {
   color: #ef4a46;
 }
 
-.blog {
+.pelangi {
   padding: 0;
 }
 
-.blog .container {
+.pelangi .container {
   padding: 0;
 }
 
-.blog .contain {
-  background: #feffef;
+.pelangi .contain {
+  /* background: #feffef; */
 }
 
-.blog .contain_2 {
+.pelangi .contain_2 {
   padding: 25px 100px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 787px) {
-  .blog .contain_2 {
+  .pelangi .contain_2 {
     padding: 25px 40px;
   }
 }
 
 /** HEADER **/
-.blog .header {
+.pelangi .header {
   padding: 50px 120px 0;
   margin: 0;
 }
 
-.blog .header .blog_title {
+.pelangi .header .pelangi_title {
   text-align: center;
   overflow-wrap: break-word;
 }
 
-.blog .header .blog_title h1 {
+.pelangi .header .pelangi_title h1 {
   font-size: 120px !important;
   /* color: #ffebe4 !important; */
   margin-bottom: 0;
 }
 
-.blog .header .desc_title {
-  margin-top: 0;
-  text-align: center;
-}
-
-.blog .header .desc_title p {
-  text-align: center;
-}
-
-.blog .header .colab {
+.pelangi .header .intro {
   margin-top: 30px;
 }
 
-.blog .header .colab img {
-  border-radius: 15px;
-  float: right;
-}
-
-.blog .header .colab .title_desc {
+.pelangi .header .intro .title_desc {
   padding-left: 20px;
 }
 
-.blog .header .colab .title_desc h2 {
+.pelangi .header .intro .title_desc h2 {
   /* color: #ffebe4 !important; */
   font-size: 45px !important;
   /* line-height: 50px; */
@@ -114,422 +108,114 @@ h6 {
   margin-bottom: 0;
 }
 
-.blog .header .colab .title_desc .feat {
-  font-weight: bold;
-  font-size: 18px;
-  margin-top: 0;
-}
-
-.blog .header .colab .title_desc p {
+.pelangi .header .intro .title_desc p {
   margin-top: 10px;
 }
 
-.blog .header .colab hr {
+.pelangi .header .intro hr {
   height: 2px;
   color: #000000;
   opacity: 1;
   margin-top: 1rem;
 }
 
-.blog .header .colab .top {
+.pelangi .header .intro .top {
   margin-bottom: 40px;
 }
 
-.blog .header .colab .bottom {
+.pelangi .header .intro .bottom {
   margin-top: 40px;
 }
 
 @media (max-width: 787px) {
-  .blog .header {
+  .pelangi .header {
     padding: 10px 20px;
   }
 
-  .blog .header .blog_title h1 {
+  .pelangi .header .pelangi_title h1 {
     font-size: 100px !important;
-  }
-
-  .blog .header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
 @media (max-width: 400px) {
-  .blog .header .blog_title h1 {
+  .pelangi .header .pelangi_title h1 {
     font-size: 80px !important;
-  }
-
-  .blog .header .desc_title p {
-    margin-top: 30px;
   }
 }
 
 @media (max-width: 991px) {
-  .blog .header .title_desc {
+  .pelangi .header .title_desc {
     margin-top: 50px;
   }
 }
 
-/** BANNER **/
-.blog .banner img {
-  width: 100%;
-}
-
-/** ARTICLE **/
-.blog .article {
-  background: #dfe6e9;
-  padding: 30px 40px;
-  border-radius: 20px;
-  margin-top: 100px;
-  box-shadow: 10px 10px 20px 0.5px #000000;
-}
-
-/** AJAKAN **/
-.blog .ajakan {
-  margin-top: 100px;
-}
-
-.blog .ajakan .title {
-  margin-bottom: 35px;
-}
-
-.blog .ajakan .title h2 {
-  font-weight: bold;
-  color: #b23636;
-  font-size: 45px;
-  margin-bottom: 0;
-}
-
-.blog .ajakan .title hr {
-  border-top: 5px solid #5c0808;
-  width: 75px;
-  display: inline-block;
-  opacity: 1;
-}
-
-.blog .ajakan .row .col-md-4,
-.blog .ajakan .row .col-lg-4 {
-  padding: 0;
-}
-
-.blog .ajakan .card {
-  background: rgba(255, 250, 170);
-  margin: 10px;
+/* ABOUT */
+.pelangi .about {
   padding: 10px;
-  box-shadow: 10px 10px 20px 0.5px #000000;
-}
-
-.blog .ajakan .card img {
-  width: 250px;
-  margin: auto;
-  margin-top: 10px;
-}
-
-.blog .ajakan .card p {
-  margin: auto;
-  margin-top: 10px;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 65px;
-}
-
-.blog .ajakan .card:hover {
-  /** box-shadow: 5px 5px 10px 5px #ffaa81; **/
-  box-shadow: 5px 5px 10px 5px #8db4b9;
-  transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-}
-
-@media (max-width: 767px) {
-  .blog .ajakan .row {
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-/** TESTIMONIAL **/
-.testimonial {
-  margin-top: 65px;
-}
-
-.testimonial .top {
-  margin-left: 5px;
-}
-
-.testimonial .top h2 {
-  font-weight: bold;
-  color: #b23636;
-  font-size: 50px;
-  margin-bottom: 0;
-}
-
-.testimonial .top hr {
-  border-top: 5px solid #5c0808;
-  width: 75px;
-  display: inline-block;
-  opacity: 1;
-}
-
-.testimonial .top p {
   margin-top: 20px;
-  padding: 5px;
+  margin-bottom: 70px;
 }
 
-.testimonial .bottom {
-  margin-top: 20px;
-}
-
-.testimonial .bottom .item {
-  padding: 15px 0px;
-}
-
-.testimonial .bottom .card {
-  background: rgb(255, 255, 255);
-  box-shadow: 0 0 10px #dfe6e9;
-  margin: 0 15px;
-  border: none;
-}
-
-.testimonial .bottom .card .content {
-  padding: 30px;
-}
-
-.testimonial .bottom .card img {
-  width: 120px;
-  margin: auto;
-}
-
-.testimonial .bottom .card p {
-  padding: 10px;
-  margin: auto;
+.pelangi .about h2 {
   text-align: center;
-}
-
-.testimonial .bottom .card .testi i {
-  color: #b23636;
-  margin: 0 5px;
-}
-
-.testimonial .bottom .card .name {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.testimonial .bottom .card .profile {
-  margin: auto;
-  margin-top: 5px;
-}
-
-.testimonial .owl-nav {
-  display: none;
-}
-
-.testimonial .owl-dots {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.testimonial .owl-dots .owl-dot span {
-  width: 10px;
-  height: 10px;
-  margin: 5px 7px;
-  background: #d6d6d6;
-  display: block;
-  -webkit-backface-visibility: visible;
-  transition: opacity 0.2s ease;
-  border-radius: 30px;
-}
-
-.testimonial .owl-dots .active span {
-  background: url(../media/background/redbg.jpg);
-}
-
-@media (max-width: 767px) {
-  .testimonial .bottom {
-    margin-left: 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .blog .colab {
-    font-size: 90px;
-  }
-}
-
-.contain_2 .article_2 {
-  margin-top: 50px;
-}
-
-/** INTRO **/
-.blog .contain_2 .intro {
+  font-size: 60px;
   margin-bottom: 30px;
-  /* padding: 0 10px; */
-  margin-top: 50px;
-  text-align: center;
 }
 
-.blog .contain_2 .intro h2 {
-  font-size: 40px;
-}
-
-.blog .contain_2 .intro p {
-  font-size: 18px;
-  text-align: center;
-}
-
-/** AUTHOR **/
-
-.blog .contain_2 .author img {
-  max-width: 100px;
-  max-height: 100px;
-  float: left;
-  border-radius: 50%;
-}
-
-.blog .contain_2 .author p {
-  margin-top: 45px;
-  margin-left: 110px;
-  margin-bottom: 0;
-  font-size: 13px;
-}
-
-.blog .contain_2 .author .name {
-  font-size: 14px;
-  margin-top: 0;
-  font-weight: bold;
-}
-
-.blog .contain_2 .author .date {
-  font-size: 14px;
-  color: #999;
-  margin-top: 0;
-  font-size: 12px;
-}
-
-@media (max-width: 767px) {
-  .blog .contain_2 .author img {
-    max-width: 85px;
-    max-height: 85px;
-  }
-
-  .blog .contain_2 .author p {
-    margin-top: 30px;
-    margin-left: 95px;
-  }
-}
-
-/** TEN PRIORITIES **/
-.blog .contain_2 .article_2 .ten_priorities {
-  margin-top: 25px;
-}
-
-.blog .contain_2 .article_2 .ten_priorities .ten_lists {
-  list-style: decimal;
-  font-family: "Montserrat", "Libre Baskerville";
-  font-size: 16px;
-}
-
-.blog .contain_2 .article_2 .ten_priorities img {
-  margin-top: 15px;
-  border-radius: 20px;
-}
-
-@media (max-width: 991px) {
-  .blog .contain_2 .article_2 .ten_priorities img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/** MONITOR SPENDING **/
-.contain_2 .article_2 .monitor_spending {
-  margin-top: 50px;
-}
-
-.contain_2 .article_2 .monitor_spending h2 {
-  text-align: center;
-}
-
-.contain_2 .article_2 .monitor_spending a {
-  text-decoration: none;
-}
-
-.contain_2 .article_2 .monitor_spending img {
-  width: 100%;
-  max-width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 575px) {
-  .contain_2 .article_2 .monitor_spending {
-    margin-top: 100px;
-  }
-}
-
-/** USE OPPORTUNITY **/
-.contain_2 .article_2 .use_opportunity {
-  margin-top: 40px;
-}
-
-.contain_2 .article_2 .use_opportunity h2 {
-  text-align: center;
-}
-
-.contain_2 .article_2 .use_opportunity a {
-  text-decoration: none;
-}
-
-.contain_2 .article_2 .use_opportunity img {
-  width: 100%;
-  max-width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 575px) {
-  .contain_2 .article_2 .use_opportunity {
-    margin-top: 100px;
-  }
-}
-
-/** IMAGE 3 **/
-.contain_2 .article_2 .image_3 {
-  margin-top: 50px;
+.pelangi .about p {
   margin-bottom: 50px;
 }
 
-.contain_2 .article_2 .image_3 img {
-  width: 500px;
+.pelangi .about img {
+  max-width: 100%;
+  max-height: 70vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
 }
 
-/** CLOSING **/
-.contain_2 .article_2 .closing {
+/* FOOD */
+.pelangi .food {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.pelangi .food h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.pelangi .food p {
   margin-bottom: 50px;
 }
 
-.contain_2 .article_2 .closing h2 {
+.pelangi .food img {
+  max-width: 100%;
+  max-height: 70vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PHOTO DUMP */
+.pelangi .photo {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.pelangi .photo h2 {
   text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
 }
 
-@media (max-width: 575px) {
-  .contain_2 .article_2 .closing h2 {
-    margin-top: 80px;
-  }
+.pelangi .photo p {
+  margin-bottom: 20px;
 }
 
+/* SLIDER */
 /* 2 */
 .slider {
   position: relative;
@@ -537,7 +223,8 @@ h6 {
   background: #2c3e50; /* darkblue */
 }
 .slider .myslide {
-  height: 655px;
+  /* height: 655px; */
+  max-height: 75vh;
   display: none;
   overflow: hidden;
 }
@@ -553,6 +240,7 @@ h6 {
   color: #fff;
   transition: 0.1s;
   user-select: none;
+  text-decoration: none;
 }
 .slider .prev:hover,
 .slider .next:hover {
@@ -583,6 +271,7 @@ h6 {
 .slider .active,
 .slider .dot:hover {
   border-color: #00a7ff; /* blue */
+  border-color: #ef4a46; /* red GISAU */
 }
 /* /javascript */
 
@@ -620,6 +309,13 @@ h6 {
   -webkit-animation-duration: 40s;
   animation-name: zoomin;
   animation-duration: 40s;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @-webkit-keyframes zoomin {
