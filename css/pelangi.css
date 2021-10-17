@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url("../media/pelangi/rainbow.jpeg");
+  background: url("../media/pelangi/rainbow.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -92,6 +92,30 @@ h6 {
   margin-bottom: 0;
 }
 
+.pelangi .header .pelangi_title p {
+  text-align: center;
+}
+
+.pelangi .header .pelangi_title .yellow {
+  color: #d38e1f;
+}
+
+.pelangi .header .pelangi_title .green {
+  color: #517877;
+}
+
+.pelangi .header .pelangi_title .dark {
+  color: #4a554d;
+}
+
+.pelangi .header .pelangi_title .red {
+  color: #ba481f;
+}
+
+.pelangi .header .desc_title p {
+  text-align: center;
+}
+
 .pelangi .header .intro {
   margin-top: 30px;
 }
@@ -110,6 +134,7 @@ h6 {
 
 .pelangi .header .intro .title_desc p {
   margin-top: 10px;
+  text-align: center;
 }
 
 .pelangi .header .intro hr {
@@ -137,9 +162,15 @@ h6 {
   }
 }
 
+@media (max-width: 500px) {
+  .pelangi .header .pelangi_title h1 {
+    font-size: 78px !important;
+  }
+}
+
 @media (max-width: 400px) {
   .pelangi .header .pelangi_title h1 {
-    font-size: 80px !important;
+    font-size: 70px !important;
   }
 }
 
@@ -172,6 +203,16 @@ h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.pelangi .about .thank_you p {
+  text-align: center;
+  font-size: 20px;
+  background-image: linear-gradient(60deg, #ff003b, #6c0edd);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
 }
 
 /* FOOD */
@@ -221,6 +262,7 @@ h6 {
   position: relative;
   width: 100%;
   background: #2c3e50; /* darkblue */
+  margin-bottom: 200px;
 }
 .slider .myslide {
   /* height: 655px; */
@@ -318,6 +360,10 @@ h6 {
   margin-right: auto;
 }
 
+.slider .down img {
+  margin-top: -10vh;
+}
+
 @-webkit-keyframes zoomin {
   from {
     transform: scale(1, 1);
@@ -339,9 +385,8 @@ h6 {
 
 /* 5 */
 @media screen and (max-width: 800px) {
-  .slider .myslide {
-    /* height: 500px; */
-    /* height: 80vh; */
+  .slider {
+    margin-bottom: 200px;
   }
 
   .slider .prev,
@@ -351,6 +396,10 @@ h6 {
 
   .slider .dotsbox {
     top: 110%;
+  }
+
+  .slider .down img {
+    margin-top: 0;
   }
 }
 /* /5 */
