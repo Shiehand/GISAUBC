@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta
+			charset="UTF-8"
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Gado-Gado Indonesian Student Association UBC</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<!--BOOTSTRAP-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="shortcut icon" href="media/favicon.png" />
+		<!--CAROUSEL-->
+		<link rel="stylesheet" href="css/flickity.css" />
+		<script src="css/flickity.pkgd.js"></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="css/googleanalytics.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/navigation-style.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/body.css" />
+		<link rel="stylesheet" href="css/event.css" />
+		<link rel="stylesheet" href="css/joinus.css" />
+		<link rel="stylesheet" href="css/recipe.css" />
+		<!-- JS -->
+		<script type="text/javascript" src="css/navbar.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/e3e202619d.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div id="nav-placeholder"></div>
+		<!-- navbar -->
+		<!-- copy everything above this to create new page  -->
+		<h1 class="title">October Recipe</h1>
+		<div class="tab">
+			<button
+				class="defaultOpen tablinks main-tab"
+				onclick="openPage(event, 'tahu', 'main-tab')"
+			>
+				Martabak Manis
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'rice', 'main-tab')"
+			>
+				Tahu Cabe Garam
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'pisang', 'main-tab')"
+			>
+				Mie Ayam
+			</button>
+		</div>
+
+		<div id="tahu" class="tabcontent main-tab">
+			<h1>Martabak Manis</h1>
+			<div>Preparation time: 1-2 hours</div>
+			<div>Cooking time: 15 minutes</div>
+			<div>Servings: 3-4 portions</div>
+			<div class="rating">
+				<span style="color: inherit">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: inherit">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img
+					class="food-image"
+					src="media/recipe-image/martabak_manis.jpg"
+				/>
+			</div>
+			<div class="description">
+				Description: Sweet, fulfilling and for sure will remind
+				Indonesians of home. The one and only Martabak🤪
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-tahu', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-tahu', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-tahu" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">250 g all purpose flour</li>
+						<li class="list-group-item">¼ tsp salt</li>
+						<li class="list-group-item">4 Tbsp unsalted butter</li>
+						<li class="list-group-item">Condensed Milk</li>
+						<li class="list-group-item">
+							3 handful of chocolate chunk/meses
+						</li>
+						<li class="list-group-item">½ tsp bicarbonate soda</li>
+						<li class="list-group-item">
+							2 handful of ground peanut
+						</li>
+						<li class="list-group-item">75 g sugar</li>
+						<li class="list-group-item">150 g cheddar cheese</li>
+						<li class="list-group-item">350 ml water</li>
+						<li class="list-group-item">1 egg</li>
+					</ul>
+				</div>
+
+				<div id="bahan-tahu" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">250 g tepung serbaguna</li>
+						<li class="list-group-item">¼ sdt garam</li>
+						<li class="list-group-item">4 sdm mentega</li>
+						<li class="list-group-item">Susu kental manis</li>
+						<li class="list-group-item">3 genggam coklat/meses</li>
+						<li class="list-group-item">½ sdt soda bikarbonat</li>
+						<li class="list-group-item">2 genggam kacang</li>
+						<li class="list-group-item">75 g gula</li>
+						<li class="list-group-item">150 g keju cheddar</li>
+						<li class="list-group-item">350 ml air</li>
+						<li class="list-group-item">1 telur</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="instructions-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-tahu', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-tahu', 'instructions-tab')"
+					>
+						Cara membuat
+					</button>
+				</div>
+				<div id="instructions-tahu" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Making the batter</li>
+						<ol style="list-style-type: lower-alpha">
+							<li>
+								Mix 25 g sugar and egg, then add 350 ml water
+								and mix it well before adding flour and salt.
+							</li>
+							<li>
+								Whisk until no more lumps and let it set for
+								duration of 1-2 hours.
+							</li>
+						</ol>
+						<li>Preparing</li>
+						<ol style="list-style-type: lower-alpha">
+							<li>
+								While preheating the pan, mix bicarbonate soda
+								with 1 tsp of water. Add the mixture to batter
+								and mix well.
+							</li>
+							<li>
+								Make sure the pan is hot and is on low heat
+								before pouring half of the batter. Don’t forget
+								to spread the batter to the edge of the pan to
+								make the crust.
+							</li>
+							<li>
+								Leave the batter until bubble starts to surface.
+							</li>
+							<li>
+								When it is half way done, take sugar and
+								sprinkle on top of the martabak. Put lead on the
+								pan and wait until it is done (crispy and golden
+								brown on the outside, moist in the inside).
+							</li>
+							<li>
+								When it is done and still hot, spread 2 tbs of
+								butter over the martabak, and then cut into
+								half.
+							</li>
+						</ol>
+						<li>Adding the toppings</li>
+						<ol style="list-style-type: lower-alpha">
+							<li>Add or adjust to your liking</li>
+							<li>
+								Put chocolate chunks or meses on half of the
+								martabak, and put shredded cheddar cheese on the
+								other half.
+							</li>
+							<li>
+								Sprinkle crush peanuts, sesame seed and lastly,
+								condensed milk, all over the surface.
+							</li>
+							<li>
+								Lastly, to server, fold the halved martabak
+								inwards, with fillings inside.
+							</li>
+							<li>Cut evenly, serve and enjoy!</li>
+						</ol>
+					</ol>
+				</div>
+
+				<div id="cara-tahu" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Adonan</li>
+						<ol style="list-style-type: lower-alpha">
+							<li>
+								Campur 25g gula dan telur, lalu tambahkan 350 ml
+								air dan aduk rata sebelum menambahkan tepung dan
+								garam.
+							</li>
+							<li>
+								Kocok hingga tidak menggumpal lagi dan diamkan
+								selama 1-2 jam.
+							</li>
+						</ol>
+						<li>Martabak</li>
+						<ol style="list-style-type: lower-alpha">
+							<li>
+								Saat memanaskan panci, campurkan soda bikarbonat
+								dengan 1 sdt air. Tambakan campuran ke adonan
+								dan aduk rata.
+							</li>
+							<li>
+								Tambahkan campuran ke adonan dan aduk rata.
+								Pastikan wajan panas, menggunakan api kecil,
+								sebelum menuangkan setengah adonan ke dalam.
+							</li>
+							<li>
+								Diamkan adonan hingga muncul gelembung-gelembung
+								kecil.
+							</li>
+							<li>
+								Saat masih setengah matang, taburkan gula di
+								atas martabak.
+							</li>
+							<li>
+								Taruh timah di wajan dan tunggu sampai matang
+								(renyah dan coklat keemasan di luar, lembab di
+								dalam).
+							</li>
+							<li>
+								Setelah matang, olesi 2 sdm mentega di atas
+								martabak, lalu potong menjadi dua.
+							</li>
+						</ol>
+						<li>Topping</li>
+						<ol style="list-style-type: lower-alpha">
+							<li>
+								Tambahkan dan sesuaikan dengan keinginan anda.
+							</li>
+							<li>
+								Taruh potongan coklat atau meses di atas separuh
+								martabak, dan taburkan keju cheddar yang sudah
+								di parut di atas separuhnya lagi.
+							</li>
+							<li>
+								Jika mau, tambahkan kacang, wijen dan susu
+								kental manis di seluruh permukaan martabak.
+							</li>
+							<li>
+								Lipat martabak yang sudah dibelah dua, bagian
+								topping di dalam.
+							</li>
+							<li>Potong rata, sajikan dan nikmati!</li>
+						</ol>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div id="rice" class="tabcontent main-tab">
+			<h1>Tahu Cabe Garam</h1>
+			<div>Preparation time: 10 minutes</div>
+			<div>Cooking time: 10 minutes</div>
+			<div>Servings: 3-4 portions</div>
+			<div class="rating">
+				<span style="color: inherit">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: inherit">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img
+					class="food-image"
+					src="media/recipe-image/tahu_cabe_garam.jpg"
+				/>
+			</div>
+			<div class="description">
+				Tahu Cabe Garam, a dish that is craved by almost everyone. Your
+				go to tofu recipe! Easy to make and yummy in your tummy. Eat it
+				with a bowl of warm rice or as it is, it could never go wrong!
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-rice', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-rice', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-rice" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">6 firm tofu</li>
+						<li class="list-group-item">
+							5 Tbsp all-purpose flour
+						</li>
+						<li class="list-group-item">5 Tbsp corn starch</li>
+						<li class="list-group-item">2 Tbsp potato starch</li>
+						<li class="list-group-item">½ tsp salt</li>
+						<li class="list-group-item">½ tsp mushroom bouillon</li>
+						<li class="list-group-item">10 cloves of garlic</li>
+						<li class="list-group-item">2 pcs of red chilli</li>
+						<li class="list-group-item">2 stems of green onion</li>
+						<li class="list-group-item">Cooking oil</li>
+					</ul>
+				</div>
+				<div id="bahan-rice" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">6 buah tahu putih</li>
+						<li class="list-group-item">5 sdm tepung serbaguna</li>
+						<li class="list-group-item">5 sdm tepung maizena</li>
+						<li class="list-group-item">2 sdm tepung sagu</li>
+						<li class="list-group-item">½ sdt garam</li>
+						<li class="list-group-item">½ sdt kaldu jamur</li>
+						<li class="list-group-item">10 siung bawang putih</li>
+						<li class="list-group-item">2 buah cabe merah</li>
+						<li class="list-group-item">2 batang daun bawang</li>
+						<li class="list-group-item">Minyak goreng</li>
+					</ul>
+				</div>
+			</div>
+			<div class="instructions-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-rice', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-rice', 'instructions-tab')"
+					>
+						Cara membuat
+					</button>
+				</div>
+
+				<div id="instructions-rice" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>
+							In a bowl, combine mushroom bouillon, cornstarch, AP
+							flour and potato starch.
+						</li>
+						<li>
+							Cut chilli and green onions into smaller pieces.
+							Mince garlic.
+						</li>
+						<li>Cut tofu into 6 small cubes.</li>
+						<li>Coat tofu evenly with the flour mixture.</li>
+						<li>
+							Heat up the cooking oil, once it starts to bubble
+							add in coated tofu. Deep fry until dry and brown.
+							Set it aside.
+						</li>
+						<li>
+							Heat up 3 tbsp of cooking oil. Add in chilli and
+							green onions, stir fry until fragrant.
+						</li>
+						<li>
+							Add in garlic and stir fry until dry and brown. Add
+							in salt and mix!
+						</li>
+						<li>Add in fried tofu and mix well!</li>
+						<li>Serve!</li>
+					</ol>
+				</div>
+				<div id="cara-rice" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Campurkan kaldu jamur, tepung maizena, tepung sagu
+							dan tepung serbaguna dalam wadah.
+						</li>
+						<li>
+							Potong cabai merah dan daun bawang hingga kecil.
+							Cincang halus bawang putih.
+						</li>
+						<li>Potong tahu hingga menjadi 6 kotak kecil.</li>
+						<li>
+							Baluri tahu dengan campuran tepung dan kaldu jamur.
+						</li>
+						<li>
+							Panaskan minyak (cukup untuk menggoreng tahu).
+							Goreng tahu hingga kering dan kecoklatan. Angkat dan
+							tiriskan.
+						</li>
+						<li>
+							Panaskan 3 sdm minyak. Masukan cabai merah dan daun
+							bawang hingga harum dan agak kering.
+						</li>
+						<li>
+							Goreng bawang putih cincang dengan api kecil sampai
+							kering dan kecoklatan. Tambahkan garam.
+						</li>
+						<li>Masukkan tahu goreng dan aduk rata.</li>
+						<li>Hidangkan!</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div id="pisang" class="tabcontent main-tab">
+			<h1>Mie Ayam</h1>
+			<div>Preparation time: 30 minutes</div>
+			<div>Cooking time: 30 minutes</div>
+			<div>Servings: 2 portions</div>
+			<div class="rating">
+				<span style="color: inherit">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: inherit">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img class="food-image" src="media/recipe-image/mie_ayam.JPG" />
+			</div>
+			<div class="description">
+				Your typical Sunday morning breakfast, that most of us
+				Indonesians enjoy and surely miss, mie ayam.
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-pisang', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-pisang', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-pisang" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">
+							2 portions noodles (fresh noodle preferably)
+						</li>
+						<li class="list-group-item">Aromatic Ingredients:</li>
+						<li class="list-group-item">5 gloves of garlic</li>
+						<li class="list-group-item">7 cloves of shallots</li>
+						<li class="list-group-item">2 candlenuts</li>
+						<li class="list-group-item">1 cm ginger</li>
+						<li class="list-group-item">1 cm turmeric</li>
+						<li class="list-group-item">3 Tbsp vegetable oil</li>
+						<li class="list-group-item">
+							Chicken topping ingredients:
+						</li>
+						<li class="list-group-item">
+							300 g chicken fillet, diced
+						</li>
+						<li class="list-group-item">Water (as needed)</li>
+						<li class="list-group-item">1 lemongrass</li>
+						<li class="list-group-item">1 bay leaf</li>
+						<li class="list-group-item">3 lime leaf</li>
+						<li class="list-group-item">
+							1-2 Tbsp sweet soy sauce
+						</li>
+						<li class="list-group-item">¼ tsp white pepper</li>
+						<li class="list-group-item">½ tsp mushroom bouillon</li>
+						<li class="list-group-item">½ tsp salt</li>
+						<li class="list-group-item">1 tsp sugar</li>
+						<li class="list-group-item">
+							1 green onion, finely sliced
+						</li>
+						<li class="list-group-item">
+							Savory soup ingredients:
+						</li>
+						<li class="list-group-item">
+							50 ml hot water/chicken stock
+						</li>
+						<li class="list-group-item">½ tsp salt</li>
+						<li class="list-group-item">½ tsp mushroom bouillon</li>
+						<li class="list-group-item">
+							Aromatic oil ingredients:
+						</li>
+						<li class="list-group-item">30 g garlic, minced</li>
+						<li class="list-group-item">30 ml vegetable oil</li>
+						<li class="list-group-item">Other toppings:</li>
+						<li class="list-group-item">
+							10 pieces of boiled Choy Sum
+						</li>
+						<li class="list-group-item">
+							1 stem of green onion, sliced
+						</li>
+						<li class="list-group-item">
+							Your favorite hot sauce!
+						</li>
+					</ul>
+				</div>
+				<div id="bahan-pisang" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">2 porsie mie</li>
+						<li class="list-group-item">Bahan Bumbu Halus:</li>
+						<li class="list-group-item">5 siung bawang putih</li>
+						<li class="list-group-item">7 siung bawang merah</li>
+						<li class="list-group-item">2 kemiri</li>
+						<li class="list-group-item">1 cm jahe</li>
+						<li class="list-group-item">1 cm kunyit</li>
+						<li class="list-group-item">3 sdm minyak goreng</li>
+						<li class="list-group-item">Bahan Topping Ayam:</li>
+						<li class="list-group-item">
+							300 g paha ayam fillet, potong dadu
+						</li>
+						<li class="list-group-item">Air secukupnya</li>
+						<li class="list-group-item">1 batang serai</li>
+						<li class="list-group-item">1 lembar daun salam</li>
+						<li class="list-group-item">1-2 sdm kecap manis</li>
+						<li class="list-group-item">1 sdm saus tiram</li>
+						<li class="list-group-item">¼ sdt merica</li>
+						<li class="list-group-item">½ sdt kaldu jamur</li>
+						<li class="list-group-item">½ sdt garam</li>
+						<li class="list-group-item">1 sdt gula</li>
+						<li class="list-group-item">1 batang daun bawang</li>
+						<li class="list-group-item">Bahan Air Gurih:</li>
+						<li class="list-group-item">
+							50 ml air panas/kuah ayam
+						</li>
+						<li class="list-group-item">½ sdt garam</li>
+						<li class="list-group-item">½ sdt kaldu jamur</li>
+						<li class="list-group-item">Bahan minyak aromatic:</li>
+						<li class="list-group-item">
+							30 g bawang putih, dicincang
+						</li>
+						<li class="list-group-item">30 ml minyak goreng</li>
+						<li class="list-group-item">Topping lain:</li>
+						<li class="list-group-item">10 lembar caisim, rebus</li>
+						<li class="list-group-item">
+							1 batang daun bawang, iris
+						</li>
+						<li class="list-group-item">
+							Saus sambal sesuai selera
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="instructions-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-pisang', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-pisang', 'instructions-tab')"
+					>
+						Cara membuat
+					</button>
+				</div>
+
+				<div
+					id="instructions-pisang"
+					class="tabcontent instructions-tab"
+				>
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Prepare the savory stock by mixing all the
+							ingredients together until the mushroom bouillon
+							dissolves.
+						</li>
+						<li>
+							For the aromatic oil, in cold oil place the minced
+							garlic and gently heat in low flame until the garlic
+							is golden brown then set aside.
+						</li>
+						<li>
+							For the aromatics blend everything in a blender or
+							food processor till it turns into a paste.
+						</li>
+						<li>
+							Once it’s all blended into a paste, heat the oil in
+							the pan in medium heat, and stir fry with
+							lemongrass, bay leaf, lime leaves.
+						</li>
+						<li>
+							When fragrant, add some water to deglaze the pan,
+							and add the chicken together with salt, pepper,
+							sugar, sweet soy sauce, oyster sauce, mushroom
+							bouillon. Cook until the chicken is well done.
+						</li>
+						<li>
+							Bring a pot of water to a boil and cook your noodles
+							until cooked (depends on the noodles you bought,
+							read the packet instructions).
+						</li>
+						<li>
+							To serve, place a few teaspoons of aromatic oil in
+							the bottom of the bowl (cater to your own liking)
+							and mix your noodles in together with the oil.
+						</li>
+						<li>
+							Top your bowl of noodles with your chicken topping,
+							cooked caisim, green onions and sambal according to
+							your liking.
+						</li>
+						<li>Serve with your bowl of savory stock.</li>
+						<li>Enjoy!</li>
+					</ol>
+				</div>
+				<div id="cara-pisang" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Untuk air gurih, campurkan semua bahan-bahan sampai
+							rata.
+						</li>
+						<li>
+							Untuk aromatic oil, di panci dingin, taro minyak dan
+							bawang putih cincang. Panaskan dengan api kecil
+							sampai bawang putih kecoklatan.
+						</li>
+						<li>
+							Setelah diblender, di panci panaskan minyak, dan
+							tumis bumbu halus dengan serai, daun salam, dan daun
+							jeruk sampai harum.
+						</li>
+						<li>
+							Setelah harum, tambahkan air, ayam, garam, gula,
+							kecap manis, saus tiram, kaldu jamur.k
+						</li>
+						<li>Sisihkan ayam topping.</li>
+						<li>
+							Bawa air sampai mendidih lalu masak mie sampai
+							matang.
+						</li>
+						<li>
+							Untuk sajih, taro beberapa sendok teh aromatic oil
+							kedalam mangkok, aduk dengan bakmi.
+						</li>
+						<li>
+							Taro topping ayam, caisim rebus, daun bawang dan
+							sambal sesuai selera.
+						</li>
+						<li>Sajikan dengan air gurih.</li>
+						<li>Nikmati!</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openPage(evt, tabName, tabGroup) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName(
+					'tabcontent ' + tabGroup
+				);
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = 'none';
+				}
+				tablinks = document.getElementsByClassName(
+					'tablinks ' + tabGroup
+				);
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(
+						' active',
+						''
+					);
+				}
+				const content = document.getElementById(tabName);
+				content.style.display = 'block';
+				evt.currentTarget.className += ' active';
+				const children = content.getElementsByClassName('defaultOpen');
+				if (children.length) {
+					for (const child of children) {
+						child.click();
+					}
+				}
+			}
+			const arr = document
+				.getElementsByClassName('defaultOpen')[0]
+				.click();
+		</script>
+	</body>
+	<footer id="footer"></footer>
+</html>
