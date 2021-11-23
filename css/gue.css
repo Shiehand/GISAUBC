@@ -273,7 +273,7 @@ hr.solid {
 .card-image {
   margin: 1rem;
   height: auto;
-  width: 18rem;
+  /* width: 18rem; */
 }
 .card-image img {
   max-height: 100%;
@@ -475,10 +475,6 @@ hr.solid {
   height: 8%;
 }
 
-.card .card-title {
-  /* height: 20%; */
-}
-
 .card .card-desc {
   height: 10%;
   margin-top: 2%;
@@ -487,6 +483,16 @@ hr.solid {
 .card .card-image {
   height: 50%;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .card h2 {
+    height: 12%;
+  }
+
+  .card .card-desc {
+    height: 20%;
+  }
 }
 
 .podium-container .dot {
