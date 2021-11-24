@@ -70,57 +70,6 @@ FCEEE6 - Pink
 	overflow: hidden;
 }
 
-.footsocial {
-	background: black;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	opacity: 0.9;
-	padding: 10px 0;
-}
-
-.footsocial .email:hover {
-	background: #c98524;
-}
-.footsocial .facebook:hover {
-	background: #2b425f;
-}
-.footsocial .instagram:hover {
-	background: #cc9393;
-}
-.footsocial .youtube:hover {
-	background: #a62f2f;
-}
-
-.footsocial .email,
-.footsocial .facebook,
-.footsocial .instagram,
-.footsocial .youtube {
-	height: 70px !important;
-	width: 70px !important;
-	padding: 10px 10px;
-	opacity: 0.8;
-	border-radius: 40%;
-}
-
-.email:hover,
-.facebook:hover,
-.instagram:hover,
-.youtube:hover {
-	opacity: 1;
-}
-
-.copyright {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	color: white;
-	font-family: Courier New, sans-serif;
-	padding: 10px 10px;
-	background: black;
-	opacity: 1;
-}
-
 #sponsor {
 	display: flex;
 	flex-direction: row;
