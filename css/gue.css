@@ -45,6 +45,11 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  font-family: DIN, Charcoal, sans-serif;
+  font-weight: bold;
+}
+
 .top_title {
   margin-top: 50px;
 }
@@ -135,6 +140,11 @@ h2 {
   margin: 90px 5% 20px 5%;
   font-size: 20px;
   text-align: center;
+}
+
+.scoreboard-container h2 {
+  margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 .scoreboard-container th {
