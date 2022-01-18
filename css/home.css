@@ -21,8 +21,8 @@
   height: auto;
 }
 .gisaulogo {
-  width: 30%;
-  height: 100%;
+	max-width: 100px;
+	max-height: 100px
 }
 
 .homeButton {
@@ -52,7 +52,7 @@
 }
 
 .gisautext {
-  width: 40%;
+  width: 80%;
   height: 100%;
 }
 
@@ -130,9 +130,6 @@
     width: 200px;
     font-size: 950%;
   }
-  .gisautext{
-    width: 10%;
-  }
 }
 
 @media (max-width: 735px){
@@ -144,14 +141,7 @@
   }
 }
 @media (max-width: 1130px){
-  .gisaulogo{
-    width: 30%;
-    height: 100%;
-  }
   .homeImage{
     height: 90vh;
-  }
-  .gisautext{
-    width: 60%;
   }
 }

@@ -9,6 +9,15 @@ FCEEE6 - Pink
 */
 
 @font-face {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('font/jost-v6-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+			url('font/jost-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
 	font-family: DIN;
 	src: url(font/DIN.ttf);
 }
@@ -30,8 +39,7 @@ h5 {
 }
 h6 {
 	color: #2b425f;
-	font-family: Helvetica, sans-serif;
-	font-size: 100%;
+	font-family: Jost, sans-serif;
 }
 
 #page1 {
@@ -60,6 +68,13 @@ h6 {
 	width: 70%;
 	text-align: center;
 	align-self: center;
+}
+
+.mission {
+	font-family: Jost;
+	margin-bottom: 2rem;
+	color: white;
+	font-weight: bold;
 }
 
 .eventBody {
@@ -109,7 +124,6 @@ a:hover {
 }
 
 .eventDesc {
-	padding: 0 30px;
 }
 
 .eventbutton {
