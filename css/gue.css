@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #fff2c5;
+  /* background-color: #fff2c5; */
+  background: #f2e8df;
 }
 
 .banner {
@@ -28,7 +29,8 @@ body {
 .desc-box {
   padding: 10px 20px 20px 10px;
   margin: 0 auto;
-  background-color: #d06032;
+  /* background-color: #d06032; */
+  background-color: #2f4858;
   border-radius: 25px;
   max-width: 70%;
 }
@@ -160,7 +162,8 @@ h3 {
 }
 
 .progress-bar {
-  background-color: #d06032;
+  /* background-color: #d06032; */
+  background-color: #2f4858;
 }
 
 @media (max-width: 800px) {
@@ -260,19 +263,22 @@ hr.solid {
   text-align: center;
 }
 .card .card-title--lfs {
-  background-color: #f4d03f;
+  /* background-color: #f4d03f; */
+  background-color: #e95436;
 }
 .card .card-title--lfs:hover {
   box-shadow: 0 0 12px rgba(244, 208, 63, 0.8);
 }
 .card .card-title--epic {
-  background-color: #8c14fc;
+  /* background-color: #8c14fc; */
+  background-color: #393a10;
 }
 .card .card-title--epic:hover {
   box-shadow: 0 0 12px rgba(140, 20, 252, 0.8);
 }
 .card .card-title--common {
   background-color: #2ecc71;
+  background-color: #9db6bd;
 }
 .card .card-title--common:hover {
   box-shadow: 0 0 12px rgba(46, 204, 113, 0.8);
