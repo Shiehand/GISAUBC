@@ -1,0 +1,62 @@
+@font-face {
+	font-family: DIN;
+	src: url(font/DIN.ttf);
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(font/Montserrat-Regular.ttf);
+}
+
+body {
+	background: #feffef;
+}
+main {
+	margin: 1.5rem auto;
+	max-width: 80%;
+}
+
+h1 {
+	font-family: DIN;
+	text-align: center;
+	margin: 1rem;
+}
+
+img.center {
+	margin: 2rem auto;
+	display: block;
+	max-width: 100%;
+}
+
+li {
+	word-wrap: break-word;
+}
+
+footer {
+	margin-top: 4rem;
+}
+
+.description {
+	font-family: Montserrat;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 70%;
+	font-size: 1.125rem;
+}
+
+.list-container {
+	font-family: Montserrat;
+	margin: 1.5rem auto;
+	max-width: 70%;
+	font-size: 1.125rem;
+}
+
+@media (max-width: 992px) {
+	.description {
+		max-width: 100%;
+	}
+
+	.list-container {
+		max-width: 100%;
+	}
+}
