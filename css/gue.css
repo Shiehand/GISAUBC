@@ -305,6 +305,8 @@ hr.solid {
   position: relative;
   width: 100%;
   background: #2c3e50; /* darkblue */
+  max-width: 920px;
+  margin: auto;
   margin-bottom: 200px;
 }
 .slider .myslide {
@@ -312,6 +314,7 @@ hr.solid {
   max-height: 85vh;
   display: none;
   overflow: hidden;
+  max-width: 920px;
 }
 
 .slider .prev,
@@ -413,7 +416,7 @@ hr.solid {
 }
 
 .slider .special img {
-  margin-top: -5vh;
+  margin-top: -15vh;
 }
 
 .slider .real_down img {
