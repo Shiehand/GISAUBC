@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta
+			charset="UTF-8"
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Gado-Gado Indonesian Student Association UBC</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<!--BOOTSTRAP-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="shortcut icon" href="media/favicon.png" />
+		<!--CAROUSEL-->
+		<link rel="stylesheet" href="css/flickity.css" />
+		<script src="css/flickity.pkgd.js"></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="css/googleanalytics.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/navigation-style.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/body.css" />
+		<link rel="stylesheet" href="css/event.css" />
+		<link rel="stylesheet" href="css/joinus.css" />
+		<link rel="stylesheet" href="css/recipe.css" />
+		<!-- JS -->
+		<script type="text/javascript" src="css/navbar.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/e3e202619d.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div id="nav-placeholder"></div>
+		<!-- navbar -->
+		<!-- copy everything above this to create new page  -->
+		<h1 class="title">November Recipe</h1>
+		<div class="tab">
+			<button
+				class="defaultOpen tablinks main-tab"
+				onclick="openPage(event, 'tahu', 'main-tab')"
+			>
+				Klepon
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'rice', 'main-tab')"
+			>
+				Ayam Panggang
+			</button>
+			<button
+				class="tablinks main-tab"
+				onclick="openPage(event, 'pisang', 'main-tab')"
+			>
+				Tempe Orek
+			</button>
+		</div>
+
+		<div id="tahu" class="tabcontent main-tab">
+			<h1>Klepon</h1>
+			<div>Preparation time: 20 minutes</div>
+			<div>Cooking time: 10 minutes</div>
+			<div>Servings: 21 balls</div>
+			<div class="rating">
+				<span style="color: inherit">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: inherit">Spiciness:</span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img
+					class="food-image"
+					src="media/recipe-image/martabak_manis.jpg"
+				/>
+			</div>
+			<div class="description">
+				Chewy and sweet, easy to make and will definitely remind you of
+				home!
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-tahu', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-tahu', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-tahu" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">
+							125g of glutinous rice flour
+						</li>
+						<li class="list-group-item">1 tbsp sugar</li>
+						<li class="list-group-item">1 pinch salt</li>
+						<li class="list-group-item">150mL of boiling water</li>
+						<li class="list-group-item">1 tbsp cooking oil</li>
+						<li class="list-group-item">
+							200g of shredded coconut
+						</li>
+						<li class="list-group-item">100g of palm sugar</li>
+						<li class="list-group-item">
+							4 drops of pandan flavouring
+						</li>
+					</ul>
+				</div>
+
+				<div id="bahan-tahu" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">125g tepung tapioka</li>
+						<li class="list-group-item">1 sdm gula</li>
+						<li class="list-group-item">1 jumput garam</li>
+						<li class="list-group-item">150mL air mendidih</li>
+						<li class="list-group-item">1 sdm minyak goreng</li>
+						<li class="list-group-item">200g kelapa parut</li>
+						<li class="list-group-item">100g gula merah</li>
+						<li class="list-group-item">4 tetes perisa pandan</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="instructions-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-tahu', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-tahu', 'instructions-tab')"
+					>
+						Cara membuat
+					</button>
+				</div>
+				<div id="instructions-tahu" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Cut palm sugar into smaller pieces.</li>
+						<li>Mix glutinous rice flour with sugar and salt.</li>
+						<li>
+							Add in water little by little until a dough is
+							formed and not sticky.
+						</li>
+						<li>Add in 4 drops of pandan flavoring, mix well.</li>
+						<li>
+							Weigh out around 20-25g of dough and roll into
+							balls.
+						</li>
+						<li>
+							Press down the balls and add in cut out palm sugar
+							in the middle, roll it back into cubes.
+						</li>
+						<li>
+							Boil water and add in the glutinous balls, boil
+							until the balls float.
+						</li>
+						<li>Coat the balls with shredded coconut and serve!</li>
+						<li>Best eaten after 30 mins!</li>
+					</ol>
+				</div>
+
+				<div id="cara-tahu" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Potong gula merah menjadi potongan kecil.</li>
+						<li>Campurkan tepung tapioka dengan gula dan garam.</li>
+						<li>
+							Tambahkan air panas secara bertahap hingga terbentuk
+							adonan dan tidak lagi lengket.
+						</li>
+						<li>Tambahkan perisa pandan ke dalam adonan.</li>
+						<li>Timbang sekitar 20-25g adonan dan bulatkan.</li>
+						<li>
+							Pipihkan adonan dan letakan potongan gula merah di
+							tengah, bulatkan.
+						</li>
+						<li>
+							Masukan bola adonan kedalam air mendidih, tunggu
+							hingga bola bola klepon mengambang.
+						</li>
+						<li>
+							Baluri klepon dengan kelapa parut dan hidangkan!
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div id="rice" class="tabcontent main-tab">
+			<h1>Ayam Panggang</h1>
+			<div>Preparation time: 15 minutes</div>
+			<div>Cooking time: 45 minutes</div>
+			<div>Servings: 2 portions</div>
+			<div class="rating">
+				<span style="color: inherit">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: inherit">Spiciness:</span>
+				<span class="fa fa-pepper-hot checked"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img
+					class="food-image"
+					src="media/recipe-image/tahu_cabe_garam.jpg"
+				/>
+			</div>
+			<div class="description">
+				Sweet, savory, tender and juicy! All Indonesians' favorite dish:
+				Ayam panggang kecap.
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-rice', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-rice', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-rice" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">
+							1 chicken (cut into 4 pieces)
+						</li>
+						<li class="list-group-item">1 tsp tamarind water</li>
+						<li class="list-group-item">1 tsp salt</li>
+						<li class="list-group-item">6 tbsp soy sauce</li>
+						<li class="list-group-item">1 tsp sugar</li>
+						<li class="list-group-item">4 bird's eye chilies</li>
+						<li class="list-group-item">8 shallots</li>
+						<li class="list-group-item">4 cloves garlic</li>
+						<li class="list-group-item">1 tsp white pepper</li>
+						<li class="list-group-item">3 tbsp butter</li>
+					</ul>
+				</div>
+				<div id="bahan-rice" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">
+							1 ekor ayam (potong 4 bagian)
+						</li>
+						<li class="list-group-item">1 sdt air asam jawa</li>
+						<li class="list-group-item">1 sdt garam</li>
+						<li class="list-group-item">6 sdm kecap asin</li>
+						<li class="list-group-item">1 sdt gula pasir</li>
+						<li class="list-group-item">4 cabai rawit</li>
+						<li class="list-group-item">8 bawang merah</li>
+						<li class="list-group-item">4 siung bawang putih</li>
+						<li class="list-group-item">1 sdt lada putih</li>
+						<li class="list-group-item">3 sdm mentega</li>
+					</ul>
+				</div>
+			</div>
+			<div class="instructions-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-rice', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-rice', 'instructions-tab')"
+					>
+						Cara membuat
+					</button>
+				</div>
+
+				<div id="instructions-rice" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Marinate chicken with tamarind water and salt, put
+							aside
+						</li>
+						<li>
+							In a saucepan, stir fry the ground spices with
+							butter until fragrant
+						</li>
+						<li>Put the marinated chicken into the saucepan</li>
+						<li>Add 650ml of water, soy sauce, sugar and salt</li>
+						<li>
+							Put in low heat until chicken is tender and sauce
+							almost dry
+						</li>
+						<li>Set aside the chicken and keep the sauce</li>
+						<li>Preheat the oven at 180° C.</li>
+						<li>
+							Put the chicken on the tray, pour sauce on top of
+							chicken and spread all over the surface
+						</li>
+						<li>
+							Roast chicken until well cooked and caramelized (~15
+							minutes)
+						</li>
+						<li>Serve and enjoy!</li>
+					</ol>
+				</div>
+				<div id="cara-rice" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Marinasi ayam dengan air asam jawa dan garam</li>
+						<li>
+							Dalam panci, tumis bumbu halus dengan mentega hingga
+							harum
+						</li>
+						<li>
+							Masukkan ayam yang sudah dimarinasi ke dalam panci
+						</li>
+						<li>Tambahkan 650ml air, kecap asin, gula dan garam</li>
+						<li>
+							Panaskan dengan api kecil hingga ayam empuk dan saus
+							sampai hampir kering
+						</li>
+						<li>Sisihkan ayam dan simpan sausnya</li>
+						<li>
+							Panaskan oven terlebih dahulu dengan suhu 180° C.
+						</li>
+						<li>
+							Letakkan ayam di atas nampan, tuangkan saus di atas
+							ayam dan oleskan ke seluruh permukaan
+						</li>
+						<li>
+							Panggang ayam sampai matang dan berwarna coklat
+							keemasan (~15 menit)
+						</li>
+						<li>Sajikan dan nikmati!</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div id="pisang" class="tabcontent main-tab">
+			<h1>Tempe Orek</h1>
+			<div>Preparation time: 20 minutes</div>
+			<div>Cooking time: 30 minutes</div>
+			<div>Servings: 5 pieces</div>
+			<div class="rating">
+				<span style="color: inherit">Difficulty:</span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+			</div>
+			<div class="rating">
+				<span style="color: inherit">Spiciness:</span>
+				<span class="fa fa-pepper-hot checked"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+				<span class="fa fa-pepper-hot"></span>
+			</div>
+			<div class="food-image-container">
+				<img class="food-image" src="media/recipe-image/mie_ayam.JPG" />
+			</div>
+			<div class="description">
+				A side dish that every Indonesian misses and loves with rice.
+			</div>
+
+			<div class="ingredient-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks ingredient-tab"
+						onclick="openPage(event, 'ingredient-pisang', 'ingredient-tab')"
+					>
+						Ingredients
+					</button>
+					<button
+						class="tablinks ingredient-tab"
+						onclick="openPage(event, 'bahan-pisang', 'ingredient-tab')"
+					>
+						Bahan
+					</button>
+				</div>
+				<div id="ingredient-pisang" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">500g tempe</li>
+						<li class="list-group-item">250g green bean</li>
+						<li class="list-group-item">2 red chili</li>
+						<li class="list-group-item">6 shallots (sliced)</li>
+						<li class="list-group-item">
+							4 cloves of garlic (minced)
+						</li>
+						<li class="list-group-item">1 lemongrass</li>
+						<li class="list-group-item">1 tsp salt</li>
+						<li class="list-group-item">1 tsp pepper</li>
+						<li class="list-group-item">4 tbsp sweet soy sauce</li>
+					</ul>
+				</div>
+				<div id="bahan-pisang" class="tabcontent ingredient-tab">
+					<ul class="list-group">
+						<li class="list-group-item">500g tempe</li>
+						<li class="list-group-item">250g buncis</li>
+						<li class="list-group-item">2 cabe merah</li>
+						<li class="list-group-item">
+							6 siung bawang merah (iris)
+						</li>
+						<li class="list-group-item">
+							4 siung bawang putih (cincang)
+						</li>
+						<li class="list-group-item">3 daun salam</li>
+						<li class="list-group-item">1 sereh</li>
+						<li class="list-group-item">1 sdt garam</li>
+						<li class="list-group-item">1 sdt merica</li>
+						<li class="list-group-item">4 sdm kecap manis</li>
+					</ul>
+				</div>
+			</div>
+			<div class="instructions-container">
+				<div class="tab">
+					<button
+						class="defaultOpen tablinks instructions-tab"
+						onclick="openPage(event, 'instructions-pisang', 'instructions-tab')"
+					>
+						Instructions
+					</button>
+					<button
+						class="tablinks instructions-tab"
+						onclick="openPage(event, 'cara-pisang', 'instructions-tab')"
+					>
+						Cara membuat
+					</button>
+				</div>
+
+				<div
+					id="instructions-pisang"
+					class="tabcontent instructions-tab"
+				>
+					<ol class="my-2 mx-lg-3">
+						<li>
+							Heat up some oil in a wok and deep fry the tempe
+						</li>
+						<li>
+							Boil in a pot/ kettle to blanch the green beans,
+							blanch for around 5 minutes/ half cooked
+						</li>
+						<li>
+							In another heated wok or frying pan, place some oil
+							and saute the shallots, garlic, bay leaves, chilies,
+							and lemongrass until fragrant.
+						</li>
+						<li>
+							When the aromatics are fragrant, put in the blanched
+							green beans and fried tempe
+						</li>
+						<li>
+							Put in seasonings (salt, pepper, sweet soy sauce),
+							taste, and adjust according to your liking.
+						</li>
+						<li>
+							When everything is well mixed, you are ready to
+							serve. Enjoy!
+						</li>
+					</ol>
+				</div>
+				<div id="cara-pisang" class="tabcontent instructions-tab">
+					<ol class="my-2 mx-lg-3">
+						<li>Panaskan minyak di panci dan goreng tempe</li>
+						<li>
+							Rebus buncis di air mendidih untuk 5 menit atau
+							sampai setengah matang
+						</li>
+						<li>
+							Panaskan panci, taro sedikit minyak dan tumiskan
+							bawang merah, bawang putih, daun salam, sereh, dan
+							cabai hingga harum
+						</li>
+						<li>Tarokan buncis dan tempe</li>
+						<li>
+							Tarokan garam, merica dan kecap manis. (Bisa
+							ditambah atau kurang sesuai selera)
+						</li>
+						<li>
+							Setelah bumbu-bumbu telah diaduk rata, tempe orek
+							siap disajikan!
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openPage(evt, tabName, tabGroup) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName(
+					'tabcontent ' + tabGroup
+				);
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = 'none';
+				}
+				tablinks = document.getElementsByClassName(
+					'tablinks ' + tabGroup
+				);
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(
+						' active',
+						''
+					);
+				}
+				const content = document.getElementById(tabName);
+				content.style.display = 'block';
+				evt.currentTarget.className += ' active';
+				const children = content.getElementsByClassName('defaultOpen');
+				if (children.length) {
+					for (const child of children) {
+						child.click();
+					}
+				}
+			}
+			const arr = document
+				.getElementsByClassName('defaultOpen')[0]
+				.click();
+		</script>
+	</body>
+	<footer id="footer"></footer>
+</html>
